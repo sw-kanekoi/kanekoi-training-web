@@ -12,12 +12,12 @@ app.listen(4000, () => {
     console.log('Server listening on port 4000');
 });
 
-// GET：「Hello World」を返す
-app.get('/', (req, res) => {
+// ①GET：「Hello World」を返す
+app.get('/hello', (req, res) => {
     res.send('Hello World');
 });
 
-// POST：リクエストパラメータとして2つの整数を渡すと、レスポンスとしてその合計を返す
+// ②POST：リクエストパラメータとして2つの整数を渡すと、レスポンスとしてその合計を返す
 app.post('/sum', (req,res) => {
     const { arg1, arg2 } = req.body;
     let result = ''
@@ -30,10 +30,10 @@ app.post('/sum', (req,res) => {
     }else {
         result = Number(arg1) + Number(arg2);
     }
-    res.json({result})
+    res.json(result)
 })
 
-// GET：（上と同じ）リクエストパラメータとして2つの整数を渡すと、レスポンスとしてその合計を返す
+// ③GET：（上と同じ）リクエストパラメータとして2つの整数を渡すと、レスポンスとしてその合計を返す
 app.get('/sum', (req, res) => {
     const { arg1, arg2 } = req.query;
     let result = 0;
@@ -45,3 +45,8 @@ app.get('/sum', (req, res) => {
         res.send(String(result)); 
     }
 })
+
+// ④GET：http://localhost:4000 にアクセスしたらhtmlファイルが表示されるようにする
+app.get('/', (req, res) => {
+
+});
