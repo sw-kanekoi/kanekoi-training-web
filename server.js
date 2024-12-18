@@ -49,6 +49,11 @@ app.get("/sum", (req, res) => {
   }
 });
 
+// GET：ユーザがブラウザで http://localhost:4000 にアクセスしたらhtmlファイルが表示
+app.get('/', (req, res) => {
+
+})
+
 // -- Web アプリ開発 - Docker, DB --
 
 // GET：レスポンスでcompanyテーブルに登録したデータをリストで返す
