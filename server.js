@@ -16,7 +16,7 @@ app.listen(4000, () => {
 // -- Web アプリ開発 - Node.js --
 
 // GET：「Hello World」を返す
-app.get("/", (req, res) => {
+app.get("/hello", (req, res) => {
   res.send("Hello World");
 });
 
