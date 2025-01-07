@@ -1,0 +1,936 @@
+2025-01-07 09:11:52.611 JST,,,1,,677c7148.1,1,,2025-01-07 09:11:52 JST,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,""
+2025-01-07 09:11:52.616 JST,,,27,,677c7148.1b,1,,2025-01-07 09:11:52 JST,,0,LOG,00000,"database system was shut down at 2025-01-07 09:11:41 JST",,,,,,,,,""
+2025-01-07 09:11:52.630 JST,,,1,,677c7148.1,2,,2025-01-07 09:11:52 JST,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,""
+2025-01-07 09:14:22.421 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,1,"PARSE",2025-01-07 09:14:22 JST,3/4,0,LOG,00000,"duration: 0.873 ms  parse <unnamed>: SET extra_float_digits = 3",,,,,,,,,""
+2025-01-07 09:14:22.421 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,2,"BIND",2025-01-07 09:14:22 JST,3/4,0,LOG,00000,"duration: 0.015 ms  bind <unnamed>: SET extra_float_digits = 3",,,,,,,,,""
+2025-01-07 09:14:22.421 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,3,"SET",2025-01-07 09:14:22 JST,3/4,0,LOG,00000,"execute <unnamed>: SET extra_float_digits = 3",,,,,,,,,""
+2025-01-07 09:14:22.422 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,4,"SET",2025-01-07 09:14:22 JST,3/4,0,LOG,00000,"duration: 0.602 ms",,,,,,,,,""
+2025-01-07 09:14:22.422 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,5,"PARSE",2025-01-07 09:14:22 JST,3/5,0,LOG,00000,"duration: 0.056 ms  parse <unnamed>: SET application_name = 'PostgreSQL JDBC Driver'",,,,,,,,,""
+2025-01-07 09:14:22.423 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,6,"BIND",2025-01-07 09:14:22 JST,3/5,0,LOG,00000,"duration: 0.006 ms  bind <unnamed>: SET application_name = 'PostgreSQL JDBC Driver'",,,,,,,,,""
+2025-01-07 09:14:22.423 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,7,"SET",2025-01-07 09:14:22 JST,3/5,0,LOG,00000,"execute <unnamed>: SET application_name = 'PostgreSQL JDBC Driver'",,,,,,,,,""
+2025-01-07 09:14:22.423 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,8,"SET",2025-01-07 09:14:22 JST,3/5,0,LOG,00000,"duration: 0.032 ms",,,,,,,,,"PostgreSQL JDBC Driver"
+2025-01-07 09:14:22.427 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,9,"PARSE",2025-01-07 09:14:22 JST,3/6,0,LOG,00000,"duration: 0.037 ms  parse <unnamed>: SET application_name = 'DBeaver 24.3.0 - Main <postgres>'",,,,,,,,,"PostgreSQL JDBC Driver"
+2025-01-07 09:14:22.427 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,10,"BIND",2025-01-07 09:14:22 JST,3/6,0,LOG,00000,"duration: 0.010 ms  bind <unnamed>: SET application_name = 'DBeaver 24.3.0 - Main <postgres>'",,,,,,,,,"PostgreSQL JDBC Driver"
+2025-01-07 09:14:22.427 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,11,"SET",2025-01-07 09:14:22 JST,3/6,0,LOG,00000,"execute <unnamed>: SET application_name = 'DBeaver 24.3.0 - Main <postgres>'",,,,,,,,,"PostgreSQL JDBC Driver"
+2025-01-07 09:14:22.427 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,12,"SET",2025-01-07 09:14:22 JST,3/6,0,LOG,00000,"duration: 0.021 ms",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.436 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,13,"PARSE",2025-01-07 09:14:22 JST,3/7,0,LOG,00000,"duration: 3.846 ms  parse <unnamed>: SELECT current_schema(),session_user",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.436 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,14,"BIND",2025-01-07 09:14:22 JST,3/7,0,LOG,00000,"duration: 0.546 ms  bind <unnamed>: SELECT current_schema(),session_user",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.436 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,15,"SELECT",2025-01-07 09:14:22 JST,3/7,0,LOG,00000,"execute <unnamed>: SELECT current_schema(),session_user",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.437 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,16,"SELECT",2025-01-07 09:14:22 JST,3/7,0,LOG,00000,"duration: 0.320 ms",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.448 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,17,"PARSE",2025-01-07 09:14:22 JST,3/8,0,LOG,00000,"duration: 7.023 ms  parse <unnamed>: SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
+ ORDER BY nspname",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.451 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,18,"BIND",2025-01-07 09:14:22 JST,3/8,0,LOG,00000,"duration: 3.418 ms  bind <unnamed>: SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
+ ORDER BY nspname",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.451 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,19,"SELECT",2025-01-07 09:14:22 JST,3/8,0,LOG,00000,"execute <unnamed>: SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
+ ORDER BY nspname",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.453 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,20,"SELECT",2025-01-07 09:14:22 JST,3/8,0,LOG,00000,"duration: 1.077 ms",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.457 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,21,"PARSE",2025-01-07 09:14:22 JST,3/9,0,LOG,00000,"duration: 0.260 ms  parse <unnamed>: SELECT n.nspname = ANY(current_schemas(true)), n.nspname, t.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.458 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,22,"BIND",2025-01-07 09:14:22 JST,3/9,0,LOG,00000,"duration: 0.468 ms  bind <unnamed>: SELECT n.nspname = ANY(current_schemas(true)), n.nspname, t.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1","parameters: $1 = '1034'",,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.458 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,23,"SELECT",2025-01-07 09:14:22 JST,3/9,0,LOG,00000,"execute <unnamed>: SELECT n.nspname = ANY(current_schemas(true)), n.nspname, t.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1","parameters: $1 = '1034'",,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.458 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,24,"SELECT",2025-01-07 09:14:22 JST,3/9,0,LOG,00000,"duration: 0.034 ms",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.460 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,25,"PARSE",2025-01-07 09:14:22 JST,3/10,0,LOG,00000,"duration: 1.636 ms  parse <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.461 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,26,"BIND",2025-01-07 09:14:22 JST,3/10,0,LOG,00000,"duration: 0.649 ms  bind <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC","parameters: $1 = '1034'",,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.461 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,27,"SELECT",2025-01-07 09:14:22 JST,3/10,0,LOG,00000,"execute <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC","parameters: $1 = '1034'",,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.461 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,28,"SELECT",2025-01-07 09:14:22 JST,3/10,0,LOG,00000,"duration: 0.085 ms",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.463 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,29,"PARSE",2025-01-07 09:14:22 JST,3/11,0,LOG,00000,"duration: 0.022 ms  parse <unnamed>: SHOW search_path",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.463 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,30,"BIND",2025-01-07 09:14:22 JST,3/11,0,LOG,00000,"duration: 0.004 ms  bind <unnamed>: SHOW search_path",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.463 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,31,"SHOW",2025-01-07 09:14:22 JST,3/11,0,LOG,00000,"execute <unnamed>: SHOW search_path",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.463 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,32,"SHOW",2025-01-07 09:14:22 JST,3/11,0,LOG,00000,"duration: 0.010 ms",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:14:22.466 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,1,"PARSE",2025-01-07 09:14:22 JST,4/2,0,LOG,00000,"duration: 0.047 ms  parse <unnamed>: SET extra_float_digits = 3",,,,,,,,,""
+2025-01-07 09:14:22.466 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,2,"BIND",2025-01-07 09:14:22 JST,4/2,0,LOG,00000,"duration: 0.005 ms  bind <unnamed>: SET extra_float_digits = 3",,,,,,,,,""
+2025-01-07 09:14:22.466 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,3,"SET",2025-01-07 09:14:22 JST,4/2,0,LOG,00000,"execute <unnamed>: SET extra_float_digits = 3",,,,,,,,,""
+2025-01-07 09:14:22.466 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,4,"SET",2025-01-07 09:14:22 JST,4/2,0,LOG,00000,"duration: 0.007 ms",,,,,,,,,""
+2025-01-07 09:14:22.466 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,5,"PARSE",2025-01-07 09:14:22 JST,4/3,0,LOG,00000,"duration: 0.007 ms  parse <unnamed>: SET application_name = 'PostgreSQL JDBC Driver'",,,,,,,,,""
+2025-01-07 09:14:22.466 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,6,"BIND",2025-01-07 09:14:22 JST,4/3,0,LOG,00000,"duration: 0.003 ms  bind <unnamed>: SET application_name = 'PostgreSQL JDBC Driver'",,,,,,,,,""
+2025-01-07 09:14:22.466 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,7,"SET",2025-01-07 09:14:22 JST,4/3,0,LOG,00000,"execute <unnamed>: SET application_name = 'PostgreSQL JDBC Driver'",,,,,,,,,""
+2025-01-07 09:14:22.466 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,8,"SET",2025-01-07 09:14:22 JST,4/3,0,LOG,00000,"duration: 0.007 ms",,,,,,,,,"PostgreSQL JDBC Driver"
+2025-01-07 09:14:22.467 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,9,"PARSE",2025-01-07 09:14:22 JST,4/4,0,LOG,00000,"duration: 0.005 ms  parse <unnamed>: SET application_name = 'DBeaver 24.3.0 - Metadata <postgres>'",,,,,,,,,"PostgreSQL JDBC Driver"
+2025-01-07 09:14:22.467 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,10,"BIND",2025-01-07 09:14:22 JST,4/4,0,LOG,00000,"duration: 0.002 ms  bind <unnamed>: SET application_name = 'DBeaver 24.3.0 - Metadata <postgres>'",,,,,,,,,"PostgreSQL JDBC Driver"
+2025-01-07 09:14:22.467 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,11,"SET",2025-01-07 09:14:22 JST,4/4,0,LOG,00000,"execute <unnamed>: SET application_name = 'DBeaver 24.3.0 - Metadata <postgres>'",,,,,,,,,"PostgreSQL JDBC Driver"
+2025-01-07 09:14:22.467 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,12,"SET",2025-01-07 09:14:22 JST,4/4,0,LOG,00000,"duration: 0.004 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.467 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,13,"PARSE",2025-01-07 09:14:22 JST,4/5,0,LOG,00000,"duration: 0.053 ms  parse <unnamed>: SELECT current_schema(),session_user",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.467 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,14,"BIND",2025-01-07 09:14:22 JST,4/5,0,LOG,00000,"duration: 0.023 ms  bind <unnamed>: SELECT current_schema(),session_user",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.467 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,15,"SELECT",2025-01-07 09:14:22 JST,4/5,0,LOG,00000,"execute <unnamed>: SELECT current_schema(),session_user",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.468 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,16,"SELECT",2025-01-07 09:14:22 JST,4/5,0,LOG,00000,"duration: 0.017 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.468 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,17,"PARSE",2025-01-07 09:14:22 JST,4/6,0,LOG,00000,"duration: 0.008 ms  parse <unnamed>: SHOW search_path",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.468 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,18,"BIND",2025-01-07 09:14:22 JST,4/6,0,LOG,00000,"duration: 0.002 ms  bind <unnamed>: SHOW search_path",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.468 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,19,"SHOW",2025-01-07 09:14:22 JST,4/6,0,LOG,00000,"execute <unnamed>: SHOW search_path",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.468 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,20,"SHOW",2025-01-07 09:14:22 JST,4/6,0,LOG,00000,"duration: 0.007 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.469 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,21,"PARSE",2025-01-07 09:14:22 JST,4/7,0,LOG,00000,"duration: 0.183 ms  parse <unnamed>: SELECT db.oid,db.* FROM pg_catalog.pg_database db WHERE datname=$1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.470 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,22,"BIND",2025-01-07 09:14:22 JST,4/7,0,LOG,00000,"duration: 0.507 ms  bind <unnamed>: SELECT db.oid,db.* FROM pg_catalog.pg_database db WHERE datname=$1","parameters: $1 = 'postgres'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.470 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,23,"SELECT",2025-01-07 09:14:22 JST,4/7,0,LOG,00000,"execute <unnamed>: SELECT db.oid,db.* FROM pg_catalog.pg_database db WHERE datname=$1","parameters: $1 = 'postgres'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.470 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,24,"SELECT",2025-01-07 09:14:22 JST,4/7,0,LOG,00000,"duration: 0.018 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.471 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,25,"PARSE",2025-01-07 09:14:22 JST,4/8,0,LOG,00000,"duration: 0.799 ms  parse <unnamed>: select * from pg_catalog.pg_settings where name=$1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.472 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,26,"BIND",2025-01-07 09:14:22 JST,4/8,0,LOG,00000,"duration: 0.247 ms  bind <unnamed>: select * from pg_catalog.pg_settings where name=$1","parameters: $1 = 'standard_conforming_strings'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.472 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,27,"SELECT",2025-01-07 09:14:22 JST,4/8,0,LOG,00000,"execute <unnamed>: select * from pg_catalog.pg_settings where name=$1","parameters: $1 = 'standard_conforming_strings'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.472 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,28,"SELECT",2025-01-07 09:14:22 JST,4/8,0,LOG,00000,"duration: 0.238 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.475 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,29,"PARSE",2025-01-07 09:14:22 JST,4/9,0,LOG,00000,"duration: 0.825 ms  parse <unnamed>: select string_agg(word, ',') from pg_catalog.pg_get_keywords() where word <> ALL ('{a,abs,absolute,action,ada,add,admin,after,all,allocate,alter,always,and,any,are,array,as,asc,asensitive,assertion,assignment,asymmetric,at,atomic,attribute,attributes,authorization,avg,before,begin,bernoulli,between,bigint,binary,blob,boolean,both,breadth,by,c,call,called,cardinality,cascade,cascaded,case,cast,catalog,catalog_name,ceil,ceiling,chain,char,char_length,character,character_length,character_set_catalog,character_set_name,character_set_schema,characteristics,characters,check,checked,class_origin,clob,close,coalesce,cobol,code_units,collate,collation,collation_catalog,collation_name,collation_schema,collect,column,column_name,command_function,command_function_code,commit,committed,condition,condition_number,connect,connection_name,constraint,constraint_catalog,constraint_name,constraint_schema,constraints,constructors,contains,continue,convert,corr,corresponding,count,covar_pop,covar_samp,create,cross,cube,cume_dist,current,current_collation,current_date,current_default_transform_group,current_path,current_role,current_time,current_timestamp,current_transform_group_for_type,current_user,cursor,cursor_name,cycle,data,date,datetime_interval_code,datetime_interval_precision,day,deallocate,dec,decimal,declare,default,defaults,deferrable,deferred,defined,definer,degree,delete,dense_rank,depth,deref,derived,desc,describe,descriptor,deterministic,diagnostics,disconnect,dispatch,distinct,domain,double,drop,dynamic,dynamic_function,dynamic_function_code,each,element,else,end,end-exec,equals,escape,every,except,exception,exclude,excluding,exec,execute,exists,exp,external,extract,false,fetch,filter,final,first,float,floor,following,for,foreign,fortran,found,free,from,full,function,fusion,g,general,get,global,go,goto,grant,granted,group,grouping,having,hierarchy,hold,hour,identity,immediate,implementation,in,including,increment,indicator,initially,inner,inout,input,insensitive,insert,instance,instantiable,int,integer,intersect,intersection,interval,into,invoker,is,isolation,join,k,key,key_member,key_type,language,large,last,lateral,leading,left,length,level,like,ln,local,localtime,localtimestamp,locator,lower,m,map,match,matched,max,maxvalue,member,merge,message_length,message_octet_length,message_text,method,min,minute,minvalue,mod,modifies,module,month,more,multiset,mumps,name,names,national,natural,nchar,nclob,nesting,new,next,no,none,normalize,normalized,not,""null"",nullable,nullif,nulls,number,numeric,object,octet_length,octets,of,old,on,only,open,option,options,or,order,ordering,ordinality,others,out,outer,output,over,overlaps,overlay,overriding,pad,parameter,parameter_mode,parameter_name,parameter_ordinal_position,parameter_specific_catalog,parameter_specific_name,parameter_specific_schema,partial,partition,pascal,path,percent_rank,percentile_cont,percentile_disc,placing,pli,position,power,preceding,precision,prepare,preserve,primary,prior,privileges,procedure,public,range,rank,read,reads,real,recursive,ref,references,referencing,regr_avgx,regr_avgy,regr_count,regr_intercept,regr_r2,regr_slope,regr_sxx,regr_sxy,regr_syy,relative,release,repeatable,restart,result,return,returned_cardinality,returned_length,returned_octet_length,returned_sqlstate,returns,revoke,right,role,rollback,rollup,routine,routine_catalog,routine_name,routine_schema,row,row_count,row_number,rows,savepoint,scale,schema,schema_name,scope_catalog,scope_name,scope_schema,scroll,search,second,section,security,select,self,sensitive,sequence,serializable,server_name,session,session_user,set,sets,similar,simple,size,smallint,some,source,space,specific,specific_name,specifictype,sql,sqlexception,sqlstate,sqlwarning,sqrt,start,state,statement,static,stddev_pop,stddev_samp,structure,style,subclass_origin,submultiset,substring,sum,symmetric,system,system_user,table,table_name,tablesample,temporary,then,ties,time,timestamp,timezone_hour,timezone_minute,to,top_level_count,trailing,transaction,transaction_active,transactions_committed,transactions_rolled_back,transform,transforms,translate,translation,treat,trigger,trigger_catalog,trigger_name,trigger_schema,trim,true,type,uescape,unbounded,uncommitted,under,union,unique,unknown,unnamed,unnest,update,upper,usage,user,user_defined_type_catalog,user_defined_type_code,user_defined_type_name,user_defined_type_schema,using,value,values,var_pop,var_samp,varchar,varying,view,when,whenever,where,width_bucket,window,with,within,without,work,write,year,zone}'::text[])",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.476 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,30,"BIND",2025-01-07 09:14:22 JST,4/9,0,LOG,00000,"duration: 0.186 ms  bind <unnamed>: select string_agg(word, ',') from pg_catalog.pg_get_keywords() where word <> ALL ('{a,abs,absolute,action,ada,add,admin,after,all,allocate,alter,always,and,any,are,array,as,asc,asensitive,assertion,assignment,asymmetric,at,atomic,attribute,attributes,authorization,avg,before,begin,bernoulli,between,bigint,binary,blob,boolean,both,breadth,by,c,call,called,cardinality,cascade,cascaded,case,cast,catalog,catalog_name,ceil,ceiling,chain,char,char_length,character,character_length,character_set_catalog,character_set_name,character_set_schema,characteristics,characters,check,checked,class_origin,clob,close,coalesce,cobol,code_units,collate,collation,collation_catalog,collation_name,collation_schema,collect,column,column_name,command_function,command_function_code,commit,committed,condition,condition_number,connect,connection_name,constraint,constraint_catalog,constraint_name,constraint_schema,constraints,constructors,contains,continue,convert,corr,corresponding,count,covar_pop,covar_samp,create,cross,cube,cume_dist,current,current_collation,current_date,current_default_transform_group,current_path,current_role,current_time,current_timestamp,current_transform_group_for_type,current_user,cursor,cursor_name,cycle,data,date,datetime_interval_code,datetime_interval_precision,day,deallocate,dec,decimal,declare,default,defaults,deferrable,deferred,defined,definer,degree,delete,dense_rank,depth,deref,derived,desc,describe,descriptor,deterministic,diagnostics,disconnect,dispatch,distinct,domain,double,drop,dynamic,dynamic_function,dynamic_function_code,each,element,else,end,end-exec,equals,escape,every,except,exception,exclude,excluding,exec,execute,exists,exp,external,extract,false,fetch,filter,final,first,float,floor,following,for,foreign,fortran,found,free,from,full,function,fusion,g,general,get,global,go,goto,grant,granted,group,grouping,having,hierarchy,hold,hour,identity,immediate,implementation,in,including,increment,indicator,initially,inner,inout,input,insensitive,insert,instance,instantiable,int,integer,intersect,intersection,interval,into,invoker,is,isolation,join,k,key,key_member,key_type,language,large,last,lateral,leading,left,length,level,like,ln,local,localtime,localtimestamp,locator,lower,m,map,match,matched,max,maxvalue,member,merge,message_length,message_octet_length,message_text,method,min,minute,minvalue,mod,modifies,module,month,more,multiset,mumps,name,names,national,natural,nchar,nclob,nesting,new,next,no,none,normalize,normalized,not,""null"",nullable,nullif,nulls,number,numeric,object,octet_length,octets,of,old,on,only,open,option,options,or,order,ordering,ordinality,others,out,outer,output,over,overlaps,overlay,overriding,pad,parameter,parameter_mode,parameter_name,parameter_ordinal_position,parameter_specific_catalog,parameter_specific_name,parameter_specific_schema,partial,partition,pascal,path,percent_rank,percentile_cont,percentile_disc,placing,pli,position,power,preceding,precision,prepare,preserve,primary,prior,privileges,procedure,public,range,rank,read,reads,real,recursive,ref,references,referencing,regr_avgx,regr_avgy,regr_count,regr_intercept,regr_r2,regr_slope,regr_sxx,regr_sxy,regr_syy,relative,release,repeatable,restart,result,return,returned_cardinality,returned_length,returned_octet_length,returned_sqlstate,returns,revoke,right,role,rollback,rollup,routine,routine_catalog,routine_name,routine_schema,row,row_count,row_number,rows,savepoint,scale,schema,schema_name,scope_catalog,scope_name,scope_schema,scroll,search,second,section,security,select,self,sensitive,sequence,serializable,server_name,session,session_user,set,sets,similar,simple,size,smallint,some,source,space,specific,specific_name,specifictype,sql,sqlexception,sqlstate,sqlwarning,sqrt,start,state,statement,static,stddev_pop,stddev_samp,structure,style,subclass_origin,submultiset,substring,sum,symmetric,system,system_user,table,table_name,tablesample,temporary,then,ties,time,timestamp,timezone_hour,timezone_minute,to,top_level_count,trailing,transaction,transaction_active,transactions_committed,transactions_rolled_back,transform,transforms,translate,translation,treat,trigger,trigger_catalog,trigger_name,trigger_schema,trim,true,type,uescape,unbounded,uncommitted,under,union,unique,unknown,unnamed,unnest,update,upper,usage,user,user_defined_type_catalog,user_defined_type_code,user_defined_type_name,user_defined_type_schema,using,value,values,var_pop,var_samp,varchar,varying,view,when,whenever,where,width_bucket,window,with,within,without,work,write,year,zone}'::text[])",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.476 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,31,"SELECT",2025-01-07 09:14:22 JST,4/9,0,LOG,00000,"execute <unnamed>: select string_agg(word, ',') from pg_catalog.pg_get_keywords() where word <> ALL ('{a,abs,absolute,action,ada,add,admin,after,all,allocate,alter,always,and,any,are,array,as,asc,asensitive,assertion,assignment,asymmetric,at,atomic,attribute,attributes,authorization,avg,before,begin,bernoulli,between,bigint,binary,blob,boolean,both,breadth,by,c,call,called,cardinality,cascade,cascaded,case,cast,catalog,catalog_name,ceil,ceiling,chain,char,char_length,character,character_length,character_set_catalog,character_set_name,character_set_schema,characteristics,characters,check,checked,class_origin,clob,close,coalesce,cobol,code_units,collate,collation,collation_catalog,collation_name,collation_schema,collect,column,column_name,command_function,command_function_code,commit,committed,condition,condition_number,connect,connection_name,constraint,constraint_catalog,constraint_name,constraint_schema,constraints,constructors,contains,continue,convert,corr,corresponding,count,covar_pop,covar_samp,create,cross,cube,cume_dist,current,current_collation,current_date,current_default_transform_group,current_path,current_role,current_time,current_timestamp,current_transform_group_for_type,current_user,cursor,cursor_name,cycle,data,date,datetime_interval_code,datetime_interval_precision,day,deallocate,dec,decimal,declare,default,defaults,deferrable,deferred,defined,definer,degree,delete,dense_rank,depth,deref,derived,desc,describe,descriptor,deterministic,diagnostics,disconnect,dispatch,distinct,domain,double,drop,dynamic,dynamic_function,dynamic_function_code,each,element,else,end,end-exec,equals,escape,every,except,exception,exclude,excluding,exec,execute,exists,exp,external,extract,false,fetch,filter,final,first,float,floor,following,for,foreign,fortran,found,free,from,full,function,fusion,g,general,get,global,go,goto,grant,granted,group,grouping,having,hierarchy,hold,hour,identity,immediate,implementation,in,including,increment,indicator,initially,inner,inout,input,insensitive,insert,instance,instantiable,int,integer,intersect,intersection,interval,into,invoker,is,isolation,join,k,key,key_member,key_type,language,large,last,lateral,leading,left,length,level,like,ln,local,localtime,localtimestamp,locator,lower,m,map,match,matched,max,maxvalue,member,merge,message_length,message_octet_length,message_text,method,min,minute,minvalue,mod,modifies,module,month,more,multiset,mumps,name,names,national,natural,nchar,nclob,nesting,new,next,no,none,normalize,normalized,not,""null"",nullable,nullif,nulls,number,numeric,object,octet_length,octets,of,old,on,only,open,option,options,or,order,ordering,ordinality,others,out,outer,output,over,overlaps,overlay,overriding,pad,parameter,parameter_mode,parameter_name,parameter_ordinal_position,parameter_specific_catalog,parameter_specific_name,parameter_specific_schema,partial,partition,pascal,path,percent_rank,percentile_cont,percentile_disc,placing,pli,position,power,preceding,precision,prepare,preserve,primary,prior,privileges,procedure,public,range,rank,read,reads,real,recursive,ref,references,referencing,regr_avgx,regr_avgy,regr_count,regr_intercept,regr_r2,regr_slope,regr_sxx,regr_sxy,regr_syy,relative,release,repeatable,restart,result,return,returned_cardinality,returned_length,returned_octet_length,returned_sqlstate,returns,revoke,right,role,rollback,rollup,routine,routine_catalog,routine_name,routine_schema,row,row_count,row_number,rows,savepoint,scale,schema,schema_name,scope_catalog,scope_name,scope_schema,scroll,search,second,section,security,select,self,sensitive,sequence,serializable,server_name,session,session_user,set,sets,similar,simple,size,smallint,some,source,space,specific,specific_name,specifictype,sql,sqlexception,sqlstate,sqlwarning,sqrt,start,state,statement,static,stddev_pop,stddev_samp,structure,style,subclass_origin,submultiset,substring,sum,symmetric,system,system_user,table,table_name,tablesample,temporary,then,ties,time,timestamp,timezone_hour,timezone_minute,to,top_level_count,trailing,transaction,transaction_active,transactions_committed,transactions_rolled_back,transform,transforms,translate,translation,treat,trigger,trigger_catalog,trigger_name,trigger_schema,trim,true,type,uescape,unbounded,uncommitted,under,union,unique,unknown,unnamed,unnest,update,upper,usage,user,user_defined_type_catalog,user_defined_type_code,user_defined_type_name,user_defined_type_schema,using,value,values,var_pop,var_samp,varchar,varying,view,when,whenever,where,width_bucket,window,with,within,without,work,write,year,zone}'::text[])",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.477 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,32,"SELECT",2025-01-07 09:14:22 JST,4/9,0,LOG,00000,"duration: 1.353 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.480 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,33,"PARSE",2025-01-07 09:14:22 JST,4/10,0,LOG,00000,"duration: 0.127 ms  parse <unnamed>: SELECT version()",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.480 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,34,"BIND",2025-01-07 09:14:22 JST,4/10,0,LOG,00000,"duration: 0.011 ms  bind <unnamed>: SELECT version()",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.480 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,35,"SELECT",2025-01-07 09:14:22 JST,4/10,0,LOG,00000,"execute <unnamed>: SELECT version()",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.480 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,36,"SELECT",2025-01-07 09:14:22 JST,4/10,0,LOG,00000,"duration: 0.005 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.481 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,37,"PARSE",2025-01-07 09:14:22 JST,4/11,0,LOG,00000,"duration: 0.055 ms  parse <unnamed>: SELECT reltype FROM pg_catalog.pg_class WHERE 1<>1 LIMIT 1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.481 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,38,"BIND",2025-01-07 09:14:22 JST,4/11,0,LOG,00000,"duration: 0.207 ms  bind <unnamed>: SELECT reltype FROM pg_catalog.pg_class WHERE 1<>1 LIMIT 1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.481 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,39,"SELECT",2025-01-07 09:14:22 JST,4/11,0,LOG,00000,"execute <unnamed>: SELECT reltype FROM pg_catalog.pg_class WHERE 1<>1 LIMIT 1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.481 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,40,"SELECT",2025-01-07 09:14:22 JST,4/11,0,LOG,00000,"duration: 0.004 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.482 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,41,"PARSE",2025-01-07 09:14:22 JST,4/12,0,LOG,00000,"duration: 0.172 ms  parse <unnamed>: SELECT t.oid,t.*,c.relkind,format_type(nullif(t.typbasetype, 0), t.typtypmod) as base_type_name, d.description
+FROM pg_catalog.pg_type t
+LEFT OUTER JOIN pg_catalog.pg_type et ON et.oid=t.typelem 
+LEFT OUTER JOIN pg_catalog.pg_class c ON c.oid=t.typrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON t.oid=d.objoid
+WHERE t.typname IS NOT NULL
+AND (c.relkind IS NULL OR c.relkind = 'c') AND (et.typcategory IS NULL OR et.typcategory <> 'C')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.482 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,42,"BIND",2025-01-07 09:14:22 JST,4/12,0,LOG,00000,"duration: 0.531 ms  bind <unnamed>: SELECT t.oid,t.*,c.relkind,format_type(nullif(t.typbasetype, 0), t.typtypmod) as base_type_name, d.description
+FROM pg_catalog.pg_type t
+LEFT OUTER JOIN pg_catalog.pg_type et ON et.oid=t.typelem 
+LEFT OUTER JOIN pg_catalog.pg_class c ON c.oid=t.typrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON t.oid=d.objoid
+WHERE t.typname IS NOT NULL
+AND (c.relkind IS NULL OR c.relkind = 'c') AND (et.typcategory IS NULL OR et.typcategory <> 'C')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.482 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,43,"SELECT",2025-01-07 09:14:22 JST,4/12,0,LOG,00000,"execute <unnamed>: SELECT t.oid,t.*,c.relkind,format_type(nullif(t.typbasetype, 0), t.typtypmod) as base_type_name, d.description
+FROM pg_catalog.pg_type t
+LEFT OUTER JOIN pg_catalog.pg_type et ON et.oid=t.typelem 
+LEFT OUTER JOIN pg_catalog.pg_class c ON c.oid=t.typrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON t.oid=d.objoid
+WHERE t.typname IS NOT NULL
+AND (c.relkind IS NULL OR c.relkind = 'c') AND (et.typcategory IS NULL OR et.typcategory <> 'C')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.486 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,44,"SELECT",2025-01-07 09:14:22 JST,4/12,0,LOG,00000,"duration: 3.891 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:22.494 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,1,"PARSE",2025-01-07 09:14:22 JST,5/2,0,LOG,00000,"duration: 0.050 ms  parse <unnamed>: SET extra_float_digits = 3",,,,,,,,,""
+2025-01-07 09:14:22.494 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,2,"BIND",2025-01-07 09:14:22 JST,5/2,0,LOG,00000,"duration: 0.006 ms  bind <unnamed>: SET extra_float_digits = 3",,,,,,,,,""
+2025-01-07 09:14:22.494 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,3,"SET",2025-01-07 09:14:22 JST,5/2,0,LOG,00000,"execute <unnamed>: SET extra_float_digits = 3",,,,,,,,,""
+2025-01-07 09:14:22.494 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,4,"SET",2025-01-07 09:14:22 JST,5/2,0,LOG,00000,"duration: 0.007 ms",,,,,,,,,""
+2025-01-07 09:14:22.495 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,5,"PARSE",2025-01-07 09:14:22 JST,5/3,0,LOG,00000,"duration: 0.006 ms  parse <unnamed>: SET application_name = 'PostgreSQL JDBC Driver'",,,,,,,,,""
+2025-01-07 09:14:22.495 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,6,"BIND",2025-01-07 09:14:22 JST,5/3,0,LOG,00000,"duration: 0.002 ms  bind <unnamed>: SET application_name = 'PostgreSQL JDBC Driver'",,,,,,,,,""
+2025-01-07 09:14:22.495 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,7,"SET",2025-01-07 09:14:22 JST,5/3,0,LOG,00000,"execute <unnamed>: SET application_name = 'PostgreSQL JDBC Driver'",,,,,,,,,""
+2025-01-07 09:14:22.495 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,8,"SET",2025-01-07 09:14:22 JST,5/3,0,LOG,00000,"duration: 0.006 ms",,,,,,,,,"PostgreSQL JDBC Driver"
+2025-01-07 09:14:22.495 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,9,"PARSE",2025-01-07 09:14:22 JST,5/4,0,LOG,00000,"duration: 0.007 ms  parse <unnamed>: SET application_name = 'DBeaver 24.3.0 - SQLEditor <Script-2.sql>'",,,,,,,,,"PostgreSQL JDBC Driver"
+2025-01-07 09:14:22.495 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,10,"BIND",2025-01-07 09:14:22 JST,5/4,0,LOG,00000,"duration: 0.002 ms  bind <unnamed>: SET application_name = 'DBeaver 24.3.0 - SQLEditor <Script-2.sql>'",,,,,,,,,"PostgreSQL JDBC Driver"
+2025-01-07 09:14:22.495 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,11,"SET",2025-01-07 09:14:22 JST,5/4,0,LOG,00000,"execute <unnamed>: SET application_name = 'DBeaver 24.3.0 - SQLEditor <Script-2.sql>'",,,,,,,,,"PostgreSQL JDBC Driver"
+2025-01-07 09:14:22.495 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,12,"SET",2025-01-07 09:14:22 JST,5/4,0,LOG,00000,"duration: 0.005 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:22.496 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,13,"PARSE",2025-01-07 09:14:22 JST,5/5,0,LOG,00000,"duration: 0.046 ms  parse <unnamed>: SELECT current_schema(),session_user",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:22.496 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,14,"BIND",2025-01-07 09:14:22 JST,5/5,0,LOG,00000,"duration: 0.021 ms  bind <unnamed>: SELECT current_schema(),session_user",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:22.496 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,15,"SELECT",2025-01-07 09:14:22 JST,5/5,0,LOG,00000,"execute <unnamed>: SELECT current_schema(),session_user",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:22.496 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,16,"SELECT",2025-01-07 09:14:22 JST,5/5,0,LOG,00000,"duration: 0.017 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:22.496 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,17,"PARSE",2025-01-07 09:14:22 JST,5/6,0,LOG,00000,"duration: 0.009 ms  parse <unnamed>: SHOW search_path",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:22.496 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,18,"BIND",2025-01-07 09:14:22 JST,5/6,0,LOG,00000,"duration: 0.002 ms  bind <unnamed>: SHOW search_path",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:22.496 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,19,"SHOW",2025-01-07 09:14:22 JST,5/6,0,LOG,00000,"execute <unnamed>: SHOW search_path",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:22.496 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,20,"SHOW",2025-01-07 09:14:22 JST,5/6,0,LOG,00000,"duration: 0.009 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:22.497 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,21,"PARSE",2025-01-07 09:14:22 JST,5/7,0,LOG,00000,"duration: 0.008 ms  parse <unnamed>: SET search_path = public,public,""$user""",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:22.497 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,22,"BIND",2025-01-07 09:14:22 JST,5/7,0,LOG,00000,"duration: 0.002 ms  bind <unnamed>: SET search_path = public,public,""$user""",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:22.497 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,23,"SET",2025-01-07 09:14:22 JST,5/7,0,LOG,00000,"execute <unnamed>: SET search_path = public,public,""$user""",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:22.497 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,24,"SET",2025-01-07 09:14:22 JST,5/7,0,LOG,00000,"duration: 0.009 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:14:23.332 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,45,"PARSE",2025-01-07 09:14:22 JST,4/13,0,LOG,00000,"duration: 0.796 ms  parse <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.333 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,46,"BIND",2025-01-07 09:14:22 JST,4/13,0,LOG,00000,"duration: 0.712 ms  bind <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.333 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,47,"SELECT",2025-01-07 09:14:22 JST,4/13,0,LOG,00000,"execute <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.333 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,48,"SELECT",2025-01-07 09:14:22 JST,4/13,0,LOG,00000,"duration: 0.083 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.334 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,49,"PARSE",2025-01-07 09:14:22 JST,4/14,0,LOG,00000,"duration: 0.208 ms  parse <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.335 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,50,"BIND",2025-01-07 09:14:22 JST,4/14,0,LOG,00000,"duration: 0.380 ms  bind <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')","parameters: $1 = '11'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.335 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,51,"SELECT",2025-01-07 09:14:22 JST,4/14,0,LOG,00000,"execute <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')","parameters: $1 = '11'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.339 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,52,"SELECT",2025-01-07 09:14:22 JST,4/14,0,LOG,00000,"duration: 4.188 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.341 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,53,"PARSE",2025-01-07 09:14:22 JST,4/15,0,LOG,00000,"duration: 0.205 ms  parse <unnamed>: SELECT n.nspname = ANY(current_schemas(true)), n.nspname, t.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.341 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,54,"BIND",2025-01-07 09:14:22 JST,4/15,0,LOG,00000,"duration: 0.165 ms  bind <unnamed>: SELECT n.nspname = ANY(current_schemas(true)), n.nspname, t.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1","parameters: $1 = '1034'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.341 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,55,"SELECT",2025-01-07 09:14:22 JST,4/15,0,LOG,00000,"execute <unnamed>: SELECT n.nspname = ANY(current_schemas(true)), n.nspname, t.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1","parameters: $1 = '1034'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.341 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,56,"SELECT",2025-01-07 09:14:22 JST,4/15,0,LOG,00000,"duration: 0.025 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.342 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,57,"PARSE",2025-01-07 09:14:22 JST,4/16,0,LOG,00000,"duration: 0.352 ms  parse <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.342 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,58,"BIND",2025-01-07 09:14:22 JST,4/16,0,LOG,00000,"duration: 0.167 ms  bind <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC","parameters: $1 = '1034'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.342 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,59,"SELECT",2025-01-07 09:14:22 JST,4/16,0,LOG,00000,"execute <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC","parameters: $1 = '1034'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:23.342 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,60,"SELECT",2025-01-07 09:14:22 JST,4/16,0,LOG,00000,"duration: 0.066 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:56.286 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,61,"PARSE",2025-01-07 09:14:22 JST,4/17,0,LOG,00000,"duration: 2.563 ms  parse <unnamed>: SELECT a.oid,a.*,pd.description FROM pg_catalog.pg_roles a 
+left join pg_catalog.pg_shdescription pd on a.oid = pd.objoid
+ORDER BY a.rolname",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:56.287 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,62,"BIND",2025-01-07 09:14:22 JST,4/17,0,LOG,00000,"duration: 1.000 ms  bind <unnamed>: SELECT a.oid,a.*,pd.description FROM pg_catalog.pg_roles a 
+left join pg_catalog.pg_shdescription pd on a.oid = pd.objoid
+ORDER BY a.rolname",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:56.287 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,63,"SELECT",2025-01-07 09:14:22 JST,4/17,0,LOG,00000,"execute <unnamed>: SELECT a.oid,a.*,pd.description FROM pg_catalog.pg_roles a 
+left join pg_catalog.pg_shdescription pd on a.oid = pd.objoid
+ORDER BY a.rolname",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:14:56.288 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,64,"SELECT",2025-01-07 09:14:22 JST,4/17,0,LOG,00000,"duration: 0.418 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:18.293 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,25,"PARSE",2025-01-07 09:14:22 JST,5/8,0,LOG,00000,"duration: 0.636 ms  parse <unnamed>: CREATE TABLE users (
+        id SERIAL NOT NULL,
+        name varchar(100) NOT NULL,
+        email varchar(100) UNIQUE,
+        password varchar(100) NULL,
+        admin_flag int not null,
+        PRIMARY key (id)
+)",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:17:18.293 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,26,"BIND",2025-01-07 09:14:22 JST,5/8,0,LOG,00000,"duration: 0.082 ms  bind <unnamed>: CREATE TABLE users (
+        id SERIAL NOT NULL,
+        name varchar(100) NOT NULL,
+        email varchar(100) UNIQUE,
+        password varchar(100) NULL,
+        admin_flag int not null,
+        PRIMARY key (id)
+)",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:17:18.293 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,27,"CREATE TABLE",2025-01-07 09:14:22 JST,5/8,0,LOG,00000,"execute <unnamed>: CREATE TABLE users (
+        id SERIAL NOT NULL,
+        name varchar(100) NOT NULL,
+        email varchar(100) UNIQUE,
+        password varchar(100) NULL,
+        admin_flag int not null,
+        PRIMARY key (id)
+)",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:17:18.314 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,28,"CREATE TABLE",2025-01-07 09:14:22 JST,5/8,569,LOG,00000,"duration: 20.741 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:17:23.982 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,65,"PARSE",2025-01-07 09:14:22 JST,4/18,0,LOG,00000,"duration: 1.079 ms  parse <unnamed>: SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
+ WHERE nspname=$1 ORDER BY nspname",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:23.983 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,66,"BIND",2025-01-07 09:14:22 JST,4/18,0,LOG,00000,"duration: 0.769 ms  bind <unnamed>: SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
+ WHERE nspname=$1 ORDER BY nspname","parameters: $1 = 'public'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:23.983 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,67,"SELECT",2025-01-07 09:14:22 JST,4/18,0,LOG,00000,"execute <unnamed>: SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
+ WHERE nspname=$1 ORDER BY nspname","parameters: $1 = 'public'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:23.983 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,68,"SELECT",2025-01-07 09:14:22 JST,4/18,0,LOG,00000,"duration: 0.144 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:23.987 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,69,"PARSE",2025-01-07 09:14:22 JST,4/19,0,LOG,00000,"duration: 0.886 ms  parse <unnamed>: SELECT t.oid,t.*,c.relkind,format_type(nullif(t.typbasetype, 0), t.typtypmod) as base_type_name, d.description
+FROM pg_catalog.pg_type t
+LEFT OUTER JOIN pg_catalog.pg_type et ON et.oid=t.typelem 
+LEFT OUTER JOIN pg_catalog.pg_class c ON c.oid=t.typrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON t.oid=d.objoid
+WHERE t.typname IS NOT NULL
+AND (c.relkind IS NULL OR c.relkind = 'c') AND (et.typcategory IS NULL OR et.typcategory <> 'C')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:23.988 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,70,"BIND",2025-01-07 09:14:22 JST,4/19,0,LOG,00000,"duration: 0.891 ms  bind <unnamed>: SELECT t.oid,t.*,c.relkind,format_type(nullif(t.typbasetype, 0), t.typtypmod) as base_type_name, d.description
+FROM pg_catalog.pg_type t
+LEFT OUTER JOIN pg_catalog.pg_type et ON et.oid=t.typelem 
+LEFT OUTER JOIN pg_catalog.pg_class c ON c.oid=t.typrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON t.oid=d.objoid
+WHERE t.typname IS NOT NULL
+AND (c.relkind IS NULL OR c.relkind = 'c') AND (et.typcategory IS NULL OR et.typcategory <> 'C')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:23.988 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,71,"SELECT",2025-01-07 09:14:22 JST,4/19,0,LOG,00000,"execute <unnamed>: SELECT t.oid,t.*,c.relkind,format_type(nullif(t.typbasetype, 0), t.typtypmod) as base_type_name, d.description
+FROM pg_catalog.pg_type t
+LEFT OUTER JOIN pg_catalog.pg_type et ON et.oid=t.typelem 
+LEFT OUTER JOIN pg_catalog.pg_class c ON c.oid=t.typrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON t.oid=d.objoid
+WHERE t.typname IS NOT NULL
+AND (c.relkind IS NULL OR c.relkind = 'c') AND (et.typcategory IS NULL OR et.typcategory <> 'C')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:23.991 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,72,"SELECT",2025-01-07 09:14:22 JST,4/19,0,LOG,00000,"duration: 3.024 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:23.998 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,73,"PARSE",2025-01-07 09:14:22 JST,4/20,0,LOG,00000,"duration: 0.284 ms  parse <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:23.998 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,74,"BIND",2025-01-07 09:14:22 JST,4/20,0,LOG,00000,"duration: 0.296 ms  bind <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:23.998 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,75,"SELECT",2025-01-07 09:14:22 JST,4/20,0,LOG,00000,"execute <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:23.999 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,76,"SELECT",2025-01-07 09:14:22 JST,4/20,0,LOG,00000,"duration: 0.188 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:24.051 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,77,"PARSE",2025-01-07 09:14:22 JST,4/21,0,LOG,00000,"duration: 0.495 ms  parse <unnamed>: select c.oid,pg_catalog.pg_total_relation_size(c.oid) as total_rel_size,pg_catalog.pg_relation_size(c.oid) as rel_size
+FROM pg_class c
+WHERE c.relnamespace=$1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:24.051 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,78,"BIND",2025-01-07 09:14:22 JST,4/21,0,LOG,00000,"duration: 0.193 ms  bind <unnamed>: select c.oid,pg_catalog.pg_total_relation_size(c.oid) as total_rel_size,pg_catalog.pg_relation_size(c.oid) as rel_size
+FROM pg_class c
+WHERE c.relnamespace=$1","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:24.051 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,79,"SELECT",2025-01-07 09:14:22 JST,4/21,0,LOG,00000,"execute <unnamed>: select c.oid,pg_catalog.pg_total_relation_size(c.oid) as total_rel_size,pg_catalog.pg_relation_size(c.oid) as rel_size
+FROM pg_class c
+WHERE c.relnamespace=$1","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:24.052 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,80,"SELECT",2025-01-07 09:14:22 JST,4/21,0,LOG,00000,"duration: 0.679 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:47.211 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,81,"PARSE",2025-01-07 09:14:22 JST,4/22,0,LOG,00000,"duration: 0.674 ms  parse <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:47.213 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,82,"BIND",2025-01-07 09:14:22 JST,4/22,0,LOG,00000,"duration: 2.107 ms  bind <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:47.213 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,83,"SELECT",2025-01-07 09:14:22 JST,4/22,0,LOG,00000,"execute <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:17:47.217 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,84,"SELECT",2025-01-07 09:14:22 JST,4/22,0,LOG,00000,"duration: 3.753 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:18:01.857 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,29,"PARSE",2025-01-07 09:14:22 JST,5/9,0,LOG,00000,"duration: 0.368 ms  parse <unnamed>: INSERT INTO users(name, email, password, admin_flag) VALUES('yamada', 'yamada@sample.com','passwordooo', 0)",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:01.857 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,30,"BIND",2025-01-07 09:14:22 JST,5/9,0,LOG,00000,"duration: 0.079 ms  bind <unnamed>: INSERT INTO users(name, email, password, admin_flag) VALUES('yamada', 'yamada@sample.com','passwordooo', 0)",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:01.857 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,31,"INSERT",2025-01-07 09:14:22 JST,5/9,0,LOG,00000,"execute <unnamed>: INSERT INTO users(name, email, password, admin_flag) VALUES('yamada', 'yamada@sample.com','passwordooo', 0)",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:01.858 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,32,"INSERT",2025-01-07 09:14:22 JST,5/9,570,LOG,00000,"duration: 0.512 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:01.858 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,33,"PARSE",2025-01-07 09:14:22 JST,5/9,570,LOG,00000,"duration: 0.040 ms  parse <unnamed>: 
+INSERT INTO users(name, email, password, admin_flag) VALUES('tanaka', 'tanaka@sample.com','passwordooo', 0)",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:01.858 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,34,"BIND",2025-01-07 09:14:22 JST,5/9,570,LOG,00000,"duration: 0.046 ms  bind <unnamed>: 
+INSERT INTO users(name, email, password, admin_flag) VALUES('tanaka', 'tanaka@sample.com','passwordooo', 0)",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:01.858 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,35,"INSERT",2025-01-07 09:14:22 JST,5/9,570,LOG,00000,"execute <unnamed>: 
+INSERT INTO users(name, email, password, admin_flag) VALUES('tanaka', 'tanaka@sample.com','passwordooo', 0)",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:01.858 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,36,"INSERT",2025-01-07 09:14:22 JST,5/9,570,LOG,00000,"duration: 0.027 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:01.858 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,37,"PARSE",2025-01-07 09:14:22 JST,5/9,570,LOG,00000,"duration: 0.031 ms  parse <unnamed>: 
+INSERT INTO users(name, email, password, admin_flag) VALUES('admin', 'admin@sample.com','passwordooo', 1)
+",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:01.858 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,38,"BIND",2025-01-07 09:14:22 JST,5/9,570,LOG,00000,"duration: 0.014 ms  bind <unnamed>: 
+INSERT INTO users(name, email, password, admin_flag) VALUES('admin', 'admin@sample.com','passwordooo', 1)
+",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:01.858 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,39,"INSERT",2025-01-07 09:14:22 JST,5/9,570,LOG,00000,"execute <unnamed>: 
+INSERT INTO users(name, email, password, admin_flag) VALUES('admin', 'admin@sample.com','passwordooo', 1)
+",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:01.858 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,40,"INSERT",2025-01-07 09:14:22 JST,5/9,570,LOG,00000,"duration: 0.034 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:57.300 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,41,"PARSE",2025-01-07 09:14:22 JST,5/10,0,LOG,00000,"duration: 0.809 ms  parse <unnamed>: CREATE TABLE company (
+        company_id serial not null,
+        company_name varchar(100) not null,
+        phone varchar(20),
+        mail varchar(200),
+        address varchar(200),
+        memo varchar(100),
+        PRIMARY key (company_id)
+    )",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:57.300 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,42,"BIND",2025-01-07 09:14:22 JST,5/10,0,LOG,00000,"duration: 0.052 ms  bind <unnamed>: CREATE TABLE company (
+        company_id serial not null,
+        company_name varchar(100) not null,
+        phone varchar(20),
+        mail varchar(200),
+        address varchar(200),
+        memo varchar(100),
+        PRIMARY key (company_id)
+    )",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:57.300 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,43,"CREATE TABLE",2025-01-07 09:14:22 JST,5/10,0,LOG,00000,"execute <unnamed>: CREATE TABLE company (
+        company_id serial not null,
+        company_name varchar(100) not null,
+        phone varchar(20),
+        mail varchar(200),
+        address varchar(200),
+        memo varchar(100),
+        PRIMARY key (company_id)
+    )",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:18:57.306 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,44,"CREATE TABLE",2025-01-07 09:14:22 JST,5/10,571,LOG,00000,"duration: 6.718 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:19:10.226 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,45,"PARSE",2025-01-07 09:14:22 JST,5/11,0,LOG,00000,"duration: 0.411 ms  parse <unnamed>: 
+INSERT INTO users(name, email, password, admin_flag) VALUES('yamada', 'yamada@sample.com','passwordooo', 0)",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:19:10.226 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,46,"BIND",2025-01-07 09:14:22 JST,5/11,0,LOG,00000,"duration: 0.424 ms  bind <unnamed>: 
+INSERT INTO users(name, email, password, admin_flag) VALUES('yamada', 'yamada@sample.com','passwordooo', 0)",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:19:10.226 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,47,"INSERT",2025-01-07 09:14:22 JST,5/11,0,LOG,00000,"execute <unnamed>: 
+INSERT INTO users(name, email, password, admin_flag) VALUES('yamada', 'yamada@sample.com','passwordooo', 0)",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:19:37.657 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,85,"PARSE",2025-01-07 09:14:22 JST,4/23,0,LOG,00000,"duration: 2.175 ms  parse <unnamed>: SELECT t.oid,t.*,pg_tablespace_location(t.oid) loc
+FROM pg_catalog.pg_tablespace t 
+ORDER BY t.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:37.659 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,86,"BIND",2025-01-07 09:14:22 JST,4/23,0,LOG,00000,"duration: 1.404 ms  bind <unnamed>: SELECT t.oid,t.*,pg_tablespace_location(t.oid) loc
+FROM pg_catalog.pg_tablespace t 
+ORDER BY t.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:37.659 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,87,"SELECT",2025-01-07 09:14:22 JST,4/23,0,LOG,00000,"execute <unnamed>: SELECT t.oid,t.*,pg_tablespace_location(t.oid) loc
+FROM pg_catalog.pg_tablespace t 
+ORDER BY t.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:37.659 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,88,"SELECT",2025-01-07 09:14:22 JST,4/23,0,LOG,00000,"duration: 0.085 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:37.660 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,89,"PARSE",2025-01-07 09:14:22 JST,4/24,0,LOG,00000,"duration: 0.177 ms  parse <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:37.661 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,90,"BIND",2025-01-07 09:14:22 JST,4/24,0,LOG,00000,"duration: 1.133 ms  bind <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:37.661 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,91,"SELECT",2025-01-07 09:14:22 JST,4/24,0,LOG,00000,"execute <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:37.661 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,92,"SELECT",2025-01-07 09:14:22 JST,4/24,0,LOG,00000,"duration: 0.078 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:37.869 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,93,"PARSE",2025-01-07 09:14:22 JST,4/25,0,LOG,00000,"duration: 0.230 ms  parse <unnamed>: SELECT c.oid,c.* FROM pg_catalog.pg_collation c 
+ORDER BY c.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:37.872 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,94,"BIND",2025-01-07 09:14:22 JST,4/25,0,LOG,00000,"duration: 2.510 ms  bind <unnamed>: SELECT c.oid,c.* FROM pg_catalog.pg_collation c 
+ORDER BY c.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:37.872 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,95,"SELECT",2025-01-07 09:14:22 JST,4/25,0,LOG,00000,"execute <unnamed>: SELECT c.oid,c.* FROM pg_catalog.pg_collation c 
+ORDER BY c.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:37.875 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,96,"SELECT",2025-01-07 09:14:22 JST,4/25,0,LOG,00000,"duration: 2.628 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.809 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,97,"PARSE",2025-01-07 09:14:22 JST,4/26,0,LOG,00000,"duration: 0.517 ms  parse <unnamed>: SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
+ WHERE nspname=$1 ORDER BY nspname",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.809 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,98,"BIND",2025-01-07 09:14:22 JST,4/26,0,LOG,00000,"duration: 0.426 ms  bind <unnamed>: SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
+ WHERE nspname=$1 ORDER BY nspname","parameters: $1 = 'public'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.809 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,99,"SELECT",2025-01-07 09:14:22 JST,4/26,0,LOG,00000,"execute <unnamed>: SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
+ WHERE nspname=$1 ORDER BY nspname","parameters: $1 = 'public'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.809 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,100,"SELECT",2025-01-07 09:14:22 JST,4/26,0,LOG,00000,"duration: 0.172 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.813 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,101,"PARSE",2025-01-07 09:14:22 JST,4/27,0,LOG,00000,"duration: 0.390 ms  parse <unnamed>: SELECT t.oid,t.*,c.relkind,format_type(nullif(t.typbasetype, 0), t.typtypmod) as base_type_name, d.description
+FROM pg_catalog.pg_type t
+LEFT OUTER JOIN pg_catalog.pg_type et ON et.oid=t.typelem 
+LEFT OUTER JOIN pg_catalog.pg_class c ON c.oid=t.typrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON t.oid=d.objoid
+WHERE t.typname IS NOT NULL
+AND (c.relkind IS NULL OR c.relkind = 'c') AND (et.typcategory IS NULL OR et.typcategory <> 'C')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.814 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,102,"BIND",2025-01-07 09:14:22 JST,4/27,0,LOG,00000,"duration: 0.689 ms  bind <unnamed>: SELECT t.oid,t.*,c.relkind,format_type(nullif(t.typbasetype, 0), t.typtypmod) as base_type_name, d.description
+FROM pg_catalog.pg_type t
+LEFT OUTER JOIN pg_catalog.pg_type et ON et.oid=t.typelem 
+LEFT OUTER JOIN pg_catalog.pg_class c ON c.oid=t.typrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON t.oid=d.objoid
+WHERE t.typname IS NOT NULL
+AND (c.relkind IS NULL OR c.relkind = 'c') AND (et.typcategory IS NULL OR et.typcategory <> 'C')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.814 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,103,"SELECT",2025-01-07 09:14:22 JST,4/27,0,LOG,00000,"execute <unnamed>: SELECT t.oid,t.*,c.relkind,format_type(nullif(t.typbasetype, 0), t.typtypmod) as base_type_name, d.description
+FROM pg_catalog.pg_type t
+LEFT OUTER JOIN pg_catalog.pg_type et ON et.oid=t.typelem 
+LEFT OUTER JOIN pg_catalog.pg_class c ON c.oid=t.typrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON t.oid=d.objoid
+WHERE t.typname IS NOT NULL
+AND (c.relkind IS NULL OR c.relkind = 'c') AND (et.typcategory IS NULL OR et.typcategory <> 'C')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.819 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,104,"SELECT",2025-01-07 09:14:22 JST,4/27,0,LOG,00000,"duration: 5.020 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.822 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,105,"PARSE",2025-01-07 09:14:22 JST,4/28,0,LOG,00000,"duration: 0.204 ms  parse <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.822 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,106,"BIND",2025-01-07 09:14:22 JST,4/28,0,LOG,00000,"duration: 0.243 ms  bind <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.822 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,107,"SELECT",2025-01-07 09:14:22 JST,4/28,0,LOG,00000,"execute <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.823 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,108,"SELECT",2025-01-07 09:14:22 JST,4/28,0,LOG,00000,"duration: 0.184 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.825 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,109,"PARSE",2025-01-07 09:14:22 JST,4/29,0,LOG,00000,"duration: 0.221 ms  parse <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.825 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,110,"BIND",2025-01-07 09:14:22 JST,4/29,0,LOG,00000,"duration: 0.781 ms  bind <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.825 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,111,"SELECT",2025-01-07 09:14:22 JST,4/29,0,LOG,00000,"execute <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.826 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,112,"SELECT",2025-01-07 09:14:22 JST,4/29,0,LOG,00000,"duration: 1.038 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.928 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,113,"PARSE",2025-01-07 09:14:22 JST,4/30,0,LOG,00000,"duration: 0.236 ms  parse <unnamed>: select c.oid,pg_catalog.pg_total_relation_size(c.oid) as total_rel_size,pg_catalog.pg_relation_size(c.oid) as rel_size
+FROM pg_class c
+WHERE c.relnamespace=$1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.928 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,114,"BIND",2025-01-07 09:14:22 JST,4/30,0,LOG,00000,"duration: 0.233 ms  bind <unnamed>: select c.oid,pg_catalog.pg_total_relation_size(c.oid) as total_rel_size,pg_catalog.pg_relation_size(c.oid) as rel_size
+FROM pg_class c
+WHERE c.relnamespace=$1","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.928 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,115,"SELECT",2025-01-07 09:14:22 JST,4/30,0,LOG,00000,"execute <unnamed>: select c.oid,pg_catalog.pg_total_relation_size(c.oid) as total_rel_size,pg_catalog.pg_relation_size(c.oid) as rel_size
+FROM pg_class c
+WHERE c.relnamespace=$1","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:40.930 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,116,"SELECT",2025-01-07 09:14:22 JST,4/30,0,LOG,00000,"duration: 2.003 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.370 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,33,"PARSE",2025-01-07 09:14:22 JST,3/12,0,LOG,00000,"duration: 1.379 ms  parse <unnamed>: SELECT x.* FROM public.users x",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:43.370 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,34,"BIND",2025-01-07 09:14:22 JST,3/12,0,LOG,00000,"duration: 0.556 ms  bind <unnamed>: SELECT x.* FROM public.users x",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:43.371 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,35,"SELECT",2025-01-07 09:14:22 JST,3/12,0,LOG,00000,"execute <unnamed>: SELECT x.* FROM public.users x",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:43.371 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,36,"SELECT",2025-01-07 09:14:22 JST,3/12,0,LOG,00000,"duration: 0.111 ms",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:43.377 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,37,"PARSE",2025-01-07 09:14:22 JST,3/13,0,LOG,00000,"duration: 1.702 ms  parse <unnamed>: SELECT c.oid, a.attnum, a.attname, c.relname, n.nspname, a.attnotnull OR (t.typtype = 'd' AND t.typnotnull), a.attidentity != '' OR pg_catalog.pg_get_expr(d.adbin, d.adrelid) LIKE '%nextval(%' FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON (c.relnamespace = n.oid) JOIN pg_catalog.pg_attribute a ON (c.oid = a.attrelid) JOIN pg_catalog.pg_type t ON (a.atttypid = t.oid) LEFT JOIN pg_catalog.pg_attrdef d ON (d.adrelid = a.attrelid AND d.adnum = a.attnum) JOIN (SELECT 16386 AS oid , 1 AS attnum UNION ALL SELECT 16386, 2 UNION ALL SELECT 16386, 3 UNION ALL SELECT 16386, 4 UNION ALL SELECT 16386, 5) vals ON (c.oid = vals.oid AND a.attnum = vals.attnum) ",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:43.379 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,38,"BIND",2025-01-07 09:14:22 JST,3/13,0,LOG,00000,"duration: 1.656 ms  bind <unnamed>: SELECT c.oid, a.attnum, a.attname, c.relname, n.nspname, a.attnotnull OR (t.typtype = 'd' AND t.typnotnull), a.attidentity != '' OR pg_catalog.pg_get_expr(d.adbin, d.adrelid) LIKE '%nextval(%' FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON (c.relnamespace = n.oid) JOIN pg_catalog.pg_attribute a ON (c.oid = a.attrelid) JOIN pg_catalog.pg_type t ON (a.atttypid = t.oid) LEFT JOIN pg_catalog.pg_attrdef d ON (d.adrelid = a.attrelid AND d.adnum = a.attnum) JOIN (SELECT 16386 AS oid , 1 AS attnum UNION ALL SELECT 16386, 2 UNION ALL SELECT 16386, 3 UNION ALL SELECT 16386, 4 UNION ALL SELECT 16386, 5) vals ON (c.oid = vals.oid AND a.attnum = vals.attnum) ",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:43.379 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,39,"SELECT",2025-01-07 09:14:22 JST,3/13,0,LOG,00000,"execute <unnamed>: SELECT c.oid, a.attnum, a.attname, c.relname, n.nspname, a.attnotnull OR (t.typtype = 'd' AND t.typnotnull), a.attidentity != '' OR pg_catalog.pg_get_expr(d.adbin, d.adrelid) LIKE '%nextval(%' FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON (c.relnamespace = n.oid) JOIN pg_catalog.pg_attribute a ON (c.oid = a.attrelid) JOIN pg_catalog.pg_type t ON (a.atttypid = t.oid) LEFT JOIN pg_catalog.pg_attrdef d ON (d.adrelid = a.attrelid AND d.adnum = a.attnum) JOIN (SELECT 16386 AS oid , 1 AS attnum UNION ALL SELECT 16386, 2 UNION ALL SELECT 16386, 3 UNION ALL SELECT 16386, 4 UNION ALL SELECT 16386, 5) vals ON (c.oid = vals.oid AND a.attnum = vals.attnum) ",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:43.379 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,40,"SELECT",2025-01-07 09:14:22 JST,3/13,0,LOG,00000,"duration: 0.289 ms",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:43.382 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,117,"PARSE",2025-01-07 09:14:22 JST,4/31,0,LOG,00000,"duration: 0.419 ms  parse <unnamed>: SELECT i.*,i.indkey as keys,c.relname,c.relnamespace,c.relam,c.reltablespace,tc.relname as tabrelname,dsc.description,pg_catalog.pg_get_expr(i.indpred, i.indrelid) as pred_expr,pg_catalog.pg_get_expr(i.indexprs, i.indrelid, true) as expr,pg_catalog.pg_relation_size(i.indexrelid) as index_rel_size,pg_catalog.pg_stat_get_numscans(i.indexrelid) as index_num_scans
+FROM pg_catalog.pg_index i
+INNER JOIN pg_catalog.pg_class c ON c.oid=i.indexrelid
+INNER JOIN pg_catalog.pg_class tc ON tc.oid=i.indrelid
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON i.indexrelid=dsc.objoid
+WHERE  i.indrelid=$1 ORDER BY c.relname",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.383 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,118,"BIND",2025-01-07 09:14:22 JST,4/31,0,LOG,00000,"duration: 1.222 ms  bind <unnamed>: SELECT i.*,i.indkey as keys,c.relname,c.relnamespace,c.relam,c.reltablespace,tc.relname as tabrelname,dsc.description,pg_catalog.pg_get_expr(i.indpred, i.indrelid) as pred_expr,pg_catalog.pg_get_expr(i.indexprs, i.indrelid, true) as expr,pg_catalog.pg_relation_size(i.indexrelid) as index_rel_size,pg_catalog.pg_stat_get_numscans(i.indexrelid) as index_num_scans
+FROM pg_catalog.pg_index i
+INNER JOIN pg_catalog.pg_class c ON c.oid=i.indexrelid
+INNER JOIN pg_catalog.pg_class tc ON tc.oid=i.indrelid
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON i.indexrelid=dsc.objoid
+WHERE  i.indrelid=$1 ORDER BY c.relname","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.383 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,119,"SELECT",2025-01-07 09:14:22 JST,4/31,0,LOG,00000,"execute <unnamed>: SELECT i.*,i.indkey as keys,c.relname,c.relnamespace,c.relam,c.reltablespace,tc.relname as tabrelname,dsc.description,pg_catalog.pg_get_expr(i.indpred, i.indrelid) as pred_expr,pg_catalog.pg_get_expr(i.indexprs, i.indrelid, true) as expr,pg_catalog.pg_relation_size(i.indexrelid) as index_rel_size,pg_catalog.pg_stat_get_numscans(i.indexrelid) as index_num_scans
+FROM pg_catalog.pg_index i
+INNER JOIN pg_catalog.pg_class c ON c.oid=i.indexrelid
+INNER JOIN pg_catalog.pg_class tc ON tc.oid=i.indrelid
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON i.indexrelid=dsc.objoid
+WHERE  i.indrelid=$1 ORDER BY c.relname","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.397 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,120,"SELECT",2025-01-07 09:14:22 JST,4/31,0,LOG,00000,"duration: 13.629 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.400 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,121,"PARSE",2025-01-07 09:14:22 JST,4/32,0,LOG,00000,"duration: 0.681 ms  parse <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.401 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,122,"BIND",2025-01-07 09:14:22 JST,4/32,0,LOG,00000,"duration: 0.734 ms  bind <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.401 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,123,"SELECT",2025-01-07 09:14:22 JST,4/32,0,LOG,00000,"execute <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.401 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,124,"SELECT",2025-01-07 09:14:22 JST,4/32,0,LOG,00000,"duration: 0.062 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.403 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,125,"PARSE",2025-01-07 09:14:22 JST,4/33,0,LOG,00000,"duration: 0.166 ms  parse <unnamed>: SELECT n.nspname = ANY(current_schemas(true)), n.nspname, t.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.403 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,126,"BIND",2025-01-07 09:14:22 JST,4/33,0,LOG,00000,"duration: 0.164 ms  bind <unnamed>: SELECT n.nspname = ANY(current_schemas(true)), n.nspname, t.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1","parameters: $1 = '22'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.403 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,127,"SELECT",2025-01-07 09:14:22 JST,4/33,0,LOG,00000,"execute <unnamed>: SELECT n.nspname = ANY(current_schemas(true)), n.nspname, t.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1","parameters: $1 = '22'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.403 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,128,"SELECT",2025-01-07 09:14:22 JST,4/33,0,LOG,00000,"duration: 0.035 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.403 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,129,"PARSE",2025-01-07 09:14:22 JST,4/34,0,LOG,00000,"duration: 0.123 ms  parse <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.404 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,130,"BIND",2025-01-07 09:14:22 JST,4/34,0,LOG,00000,"duration: 0.176 ms  bind <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC","parameters: $1 = '22'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.404 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,131,"SELECT",2025-01-07 09:14:22 JST,4/34,0,LOG,00000,"execute <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC","parameters: $1 = '22'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.404 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,132,"SELECT",2025-01-07 09:14:22 JST,4/34,0,LOG,00000,"duration: 0.044 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.404 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,133,"PARSE",2025-01-07 09:14:22 JST,4/35,0,LOG,00000,"duration: 0.076 ms  parse <unnamed>: SELECT n.nspname = ANY(current_schemas(true)), n.nspname, t.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.405 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,134,"BIND",2025-01-07 09:14:22 JST,4/35,0,LOG,00000,"duration: 0.145 ms  bind <unnamed>: SELECT n.nspname = ANY(current_schemas(true)), n.nspname, t.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1","parameters: $1 = '30'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.405 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,135,"SELECT",2025-01-07 09:14:22 JST,4/35,0,LOG,00000,"execute <unnamed>: SELECT n.nspname = ANY(current_schemas(true)), n.nspname, t.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1","parameters: $1 = '30'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.405 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,136,"SELECT",2025-01-07 09:14:22 JST,4/35,0,LOG,00000,"duration: 0.061 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.405 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,137,"PARSE",2025-01-07 09:14:22 JST,4/36,0,LOG,00000,"duration: 0.165 ms  parse <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.406 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,138,"BIND",2025-01-07 09:14:22 JST,4/36,0,LOG,00000,"duration: 0.180 ms  bind <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC","parameters: $1 = '30'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.406 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,139,"SELECT",2025-01-07 09:14:22 JST,4/36,0,LOG,00000,"execute <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC","parameters: $1 = '30'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.406 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,140,"SELECT",2025-01-07 09:14:22 JST,4/36,0,LOG,00000,"duration: 0.050 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.407 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,141,"PARSE",2025-01-07 09:14:22 JST,4/37,0,LOG,00000,"duration: 0.096 ms  parse <unnamed>: SELECT am.oid,am.* FROM pg_catalog.pg_am am 
+ORDER BY am.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.408 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,142,"BIND",2025-01-07 09:14:22 JST,4/37,0,LOG,00000,"duration: 0.978 ms  bind <unnamed>: SELECT am.oid,am.* FROM pg_catalog.pg_am am 
+ORDER BY am.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.408 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,143,"SELECT",2025-01-07 09:14:22 JST,4/37,0,LOG,00000,"execute <unnamed>: SELECT am.oid,am.* FROM pg_catalog.pg_am am 
+ORDER BY am.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.408 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,144,"SELECT",2025-01-07 09:14:22 JST,4/37,0,LOG,00000,"duration: 0.225 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.410 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,145,"PARSE",2025-01-07 09:14:22 JST,4/38,0,LOG,00000,"duration: 0.082 ms  parse <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.410 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,146,"BIND",2025-01-07 09:14:22 JST,4/38,0,LOG,00000,"duration: 0.151 ms  bind <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.410 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,147,"SELECT",2025-01-07 09:14:22 JST,4/38,0,LOG,00000,"execute <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:43.411 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,148,"SELECT",2025-01-07 09:14:22 JST,4/38,0,LOG,00000,"duration: 0.028 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.368 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,149,"PARSE",2025-01-07 09:14:22 JST,4/39,0,LOG,00000,"duration: 0.405 ms  parse <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.370 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,150,"BIND",2025-01-07 09:14:22 JST,4/39,0,LOG,00000,"duration: 1.104 ms  bind <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.370 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,151,"SELECT",2025-01-07 09:14:22 JST,4/39,0,LOG,00000,"execute <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.370 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,152,"SELECT",2025-01-07 09:14:22 JST,4/39,0,LOG,00000,"duration: 0.733 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.372 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,41,"PARSE",2025-01-07 09:14:22 JST,3/14,0,LOG,00000,"duration: 0.158 ms  parse <unnamed>: SELECT x.* FROM public.company x",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:47.372 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,42,"BIND",2025-01-07 09:14:22 JST,3/14,0,LOG,00000,"duration: 0.244 ms  bind <unnamed>: SELECT x.* FROM public.company x",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:47.372 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,43,"SELECT",2025-01-07 09:14:22 JST,3/14,0,LOG,00000,"execute <unnamed>: SELECT x.* FROM public.company x",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:47.372 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,44,"SELECT",2025-01-07 09:14:22 JST,3/14,0,LOG,00000,"duration: 0.020 ms",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:47.373 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,45,"PARSE",2025-01-07 09:14:22 JST,3/15,0,LOG,00000,"duration: 0.191 ms  parse <unnamed>: SELECT c.oid, a.attnum, a.attname, c.relname, n.nspname, a.attnotnull OR (t.typtype = 'd' AND t.typnotnull), a.attidentity != '' OR pg_catalog.pg_get_expr(d.adbin, d.adrelid) LIKE '%nextval(%' FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON (c.relnamespace = n.oid) JOIN pg_catalog.pg_attribute a ON (c.oid = a.attrelid) JOIN pg_catalog.pg_type t ON (a.atttypid = t.oid) LEFT JOIN pg_catalog.pg_attrdef d ON (d.adrelid = a.attrelid AND d.adnum = a.attnum) JOIN (SELECT 16396 AS oid , 1 AS attnum UNION ALL SELECT 16396, 2 UNION ALL SELECT 16396, 3 UNION ALL SELECT 16396, 4 UNION ALL SELECT 16396, 5 UNION ALL SELECT 16396, 6) vals ON (c.oid = vals.oid AND a.attnum = vals.attnum) ",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:47.374 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,46,"BIND",2025-01-07 09:14:22 JST,3/15,0,LOG,00000,"duration: 1.176 ms  bind <unnamed>: SELECT c.oid, a.attnum, a.attname, c.relname, n.nspname, a.attnotnull OR (t.typtype = 'd' AND t.typnotnull), a.attidentity != '' OR pg_catalog.pg_get_expr(d.adbin, d.adrelid) LIKE '%nextval(%' FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON (c.relnamespace = n.oid) JOIN pg_catalog.pg_attribute a ON (c.oid = a.attrelid) JOIN pg_catalog.pg_type t ON (a.atttypid = t.oid) LEFT JOIN pg_catalog.pg_attrdef d ON (d.adrelid = a.attrelid AND d.adnum = a.attnum) JOIN (SELECT 16396 AS oid , 1 AS attnum UNION ALL SELECT 16396, 2 UNION ALL SELECT 16396, 3 UNION ALL SELECT 16396, 4 UNION ALL SELECT 16396, 5 UNION ALL SELECT 16396, 6) vals ON (c.oid = vals.oid AND a.attnum = vals.attnum) ",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:47.374 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,47,"SELECT",2025-01-07 09:14:22 JST,3/15,0,LOG,00000,"execute <unnamed>: SELECT c.oid, a.attnum, a.attname, c.relname, n.nspname, a.attnotnull OR (t.typtype = 'd' AND t.typnotnull), a.attidentity != '' OR pg_catalog.pg_get_expr(d.adbin, d.adrelid) LIKE '%nextval(%' FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON (c.relnamespace = n.oid) JOIN pg_catalog.pg_attribute a ON (c.oid = a.attrelid) JOIN pg_catalog.pg_type t ON (a.atttypid = t.oid) LEFT JOIN pg_catalog.pg_attrdef d ON (d.adrelid = a.attrelid AND d.adnum = a.attnum) JOIN (SELECT 16396 AS oid , 1 AS attnum UNION ALL SELECT 16396, 2 UNION ALL SELECT 16396, 3 UNION ALL SELECT 16396, 4 UNION ALL SELECT 16396, 5 UNION ALL SELECT 16396, 6) vals ON (c.oid = vals.oid AND a.attnum = vals.attnum) ",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:47.375 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,48,"SELECT",2025-01-07 09:14:22 JST,3/15,0,LOG,00000,"duration: 0.191 ms",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:19:47.376 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,153,"PARSE",2025-01-07 09:14:22 JST,4/40,0,LOG,00000,"duration: 0.175 ms  parse <unnamed>: SELECT i.*,i.indkey as keys,c.relname,c.relnamespace,c.relam,c.reltablespace,tc.relname as tabrelname,dsc.description,pg_catalog.pg_get_expr(i.indpred, i.indrelid) as pred_expr,pg_catalog.pg_get_expr(i.indexprs, i.indrelid, true) as expr,pg_catalog.pg_relation_size(i.indexrelid) as index_rel_size,pg_catalog.pg_stat_get_numscans(i.indexrelid) as index_num_scans
+FROM pg_catalog.pg_index i
+INNER JOIN pg_catalog.pg_class c ON c.oid=i.indexrelid
+INNER JOIN pg_catalog.pg_class tc ON tc.oid=i.indrelid
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON i.indexrelid=dsc.objoid
+WHERE  i.indrelid=$1 ORDER BY c.relname",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.376 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,154,"BIND",2025-01-07 09:14:22 JST,4/40,0,LOG,00000,"duration: 0.407 ms  bind <unnamed>: SELECT i.*,i.indkey as keys,c.relname,c.relnamespace,c.relam,c.reltablespace,tc.relname as tabrelname,dsc.description,pg_catalog.pg_get_expr(i.indpred, i.indrelid) as pred_expr,pg_catalog.pg_get_expr(i.indexprs, i.indrelid, true) as expr,pg_catalog.pg_relation_size(i.indexrelid) as index_rel_size,pg_catalog.pg_stat_get_numscans(i.indexrelid) as index_num_scans
+FROM pg_catalog.pg_index i
+INNER JOIN pg_catalog.pg_class c ON c.oid=i.indexrelid
+INNER JOIN pg_catalog.pg_class tc ON tc.oid=i.indrelid
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON i.indexrelid=dsc.objoid
+WHERE  i.indrelid=$1 ORDER BY c.relname","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.376 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,155,"SELECT",2025-01-07 09:14:22 JST,4/40,0,LOG,00000,"execute <unnamed>: SELECT i.*,i.indkey as keys,c.relname,c.relnamespace,c.relam,c.reltablespace,tc.relname as tabrelname,dsc.description,pg_catalog.pg_get_expr(i.indpred, i.indrelid) as pred_expr,pg_catalog.pg_get_expr(i.indexprs, i.indrelid, true) as expr,pg_catalog.pg_relation_size(i.indexrelid) as index_rel_size,pg_catalog.pg_stat_get_numscans(i.indexrelid) as index_num_scans
+FROM pg_catalog.pg_index i
+INNER JOIN pg_catalog.pg_class c ON c.oid=i.indexrelid
+INNER JOIN pg_catalog.pg_class tc ON tc.oid=i.indrelid
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON i.indexrelid=dsc.objoid
+WHERE  i.indrelid=$1 ORDER BY c.relname","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.389 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,156,"SELECT",2025-01-07 09:14:22 JST,4/40,0,LOG,00000,"duration: 12.797 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.390 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,157,"PARSE",2025-01-07 09:14:22 JST,4/41,0,LOG,00000,"duration: 0.338 ms  parse <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.391 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,158,"BIND",2025-01-07 09:14:22 JST,4/41,0,LOG,00000,"duration: 0.660 ms  bind <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.391 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,159,"SELECT",2025-01-07 09:14:22 JST,4/41,0,LOG,00000,"execute <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.391 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,160,"SELECT",2025-01-07 09:14:22 JST,4/41,0,LOG,00000,"duration: 0.079 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.392 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,161,"PARSE",2025-01-07 09:14:22 JST,4/42,0,LOG,00000,"duration: 0.091 ms  parse <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.393 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,162,"BIND",2025-01-07 09:14:22 JST,4/42,0,LOG,00000,"duration: 0.210 ms  bind <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.393 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,163,"SELECT",2025-01-07 09:14:22 JST,4/42,0,LOG,00000,"execute <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:19:47.393 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,164,"SELECT",2025-01-07 09:14:22 JST,4/42,0,LOG,00000,"duration: 0.076 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:05.421 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,48,"PARSE",2025-01-07 09:14:22 JST,5/13,0,LOG,00000,"duration: 2.043 ms  parse <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(1, 'カンパニー ', '111-1111-1111', 'sample@sample.com', '日本東京都千代田区', 'テストです。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:21:05.421 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,49,"BIND",2025-01-07 09:14:22 JST,5/13,0,LOG,00000,"duration: 0.227 ms  bind <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(1, 'カンパニー ', '111-1111-1111', 'sample@sample.com', '日本東京都千代田区', 'テストです。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:21:05.421 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,50,"INSERT",2025-01-07 09:14:22 JST,5/13,0,LOG,00000,"execute <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(1, 'カンパニー ', '111-1111-1111', 'sample@sample.com', '日本東京都千代田区', 'テストです。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:21:05.422 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,51,"INSERT",2025-01-07 09:14:22 JST,5/13,573,LOG,00000,"duration: 0.609 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:21:05.422 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,52,"PARSE",2025-01-07 09:14:22 JST,5/13,573,LOG,00000,"duration: 0.093 ms  parse <unnamed>: 
+INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(2, 'カンパニー2 ', '222-2222-2222', 'sample2@sample.com', '日本東京都千代田区2', 'テスト2です。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:21:05.422 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,53,"BIND",2025-01-07 09:14:22 JST,5/13,573,LOG,00000,"duration: 0.041 ms  bind <unnamed>: 
+INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(2, 'カンパニー2 ', '222-2222-2222', 'sample2@sample.com', '日本東京都千代田区2', 'テスト2です。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:21:05.422 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,54,"INSERT",2025-01-07 09:14:22 JST,5/13,573,LOG,00000,"execute <unnamed>: 
+INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(2, 'カンパニー2 ', '222-2222-2222', 'sample2@sample.com', '日本東京都千代田区2', 'テスト2です。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:21:05.422 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,55,"INSERT",2025-01-07 09:14:22 JST,5/13,573,LOG,00000,"duration: 0.039 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:21:05.422 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,56,"PARSE",2025-01-07 09:14:22 JST,5/13,573,LOG,00000,"duration: 0.031 ms  parse <unnamed>: 
+INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(2, 'カンパニー3 ', '333-3333-3333', 'sample3@sample.com', '日本東京都千代田区3', 'テスト3です。')
+",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:21:05.422 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,57,"BIND",2025-01-07 09:14:22 JST,5/13,573,LOG,00000,"duration: 0.022 ms  bind <unnamed>: 
+INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(2, 'カンパニー3 ', '333-3333-3333', 'sample3@sample.com', '日本東京都千代田区3', 'テスト3です。')
+",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:21:05.422 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,58,"INSERT",2025-01-07 09:14:22 JST,5/13,573,LOG,00000,"execute <unnamed>: 
+INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(2, 'カンパニー3 ', '333-3333-3333', 'sample3@sample.com', '日本東京都千代田区3', 'テスト3です。')
+",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:21:25.142 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,165,"PARSE",2025-01-07 09:14:22 JST,4/43,0,LOG,00000,"duration: 0.252 ms  parse <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c') AND relname=$2",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.143 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,166,"BIND",2025-01-07 09:14:22 JST,4/43,0,LOG,00000,"duration: 0.444 ms  bind <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c') AND relname=$2","parameters: $1 = '2200', $2 = 'company'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.143 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,167,"SELECT",2025-01-07 09:14:22 JST,4/43,0,LOG,00000,"execute <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c') AND relname=$2","parameters: $1 = '2200', $2 = 'company'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.143 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,168,"SELECT",2025-01-07 09:14:22 JST,4/43,0,LOG,00000,"duration: 0.093 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.241 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,169,"PARSE",2025-01-07 09:14:22 JST,4/44,0,LOG,00000,"duration: 0.321 ms  parse <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.242 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,170,"BIND",2025-01-07 09:14:22 JST,4/44,0,LOG,00000,"duration: 0.598 ms  bind <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.242 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,171,"SELECT",2025-01-07 09:14:22 JST,4/44,0,LOG,00000,"execute <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.242 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,172,"SELECT",2025-01-07 09:14:22 JST,4/44,0,LOG,00000,"duration: 0.743 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.245 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,49,"PARSE",2025-01-07 09:14:22 JST,3/16,0,LOG,00000,"duration: 0.169 ms  parse <unnamed>: SELECT x.* FROM public.company x",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:21:25.245 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,50,"BIND",2025-01-07 09:14:22 JST,3/16,0,LOG,00000,"duration: 0.074 ms  bind <unnamed>: SELECT x.* FROM public.company x",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:21:25.245 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,51,"SELECT",2025-01-07 09:14:22 JST,3/16,0,LOG,00000,"execute <unnamed>: SELECT x.* FROM public.company x",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:21:25.245 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,52,"SELECT",2025-01-07 09:14:22 JST,3/16,0,LOG,00000,"duration: 0.032 ms",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:21:25.247 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,173,"PARSE",2025-01-07 09:14:22 JST,4/45,0,LOG,00000,"duration: 0.250 ms  parse <unnamed>: SELECT i.*,i.indkey as keys,c.relname,c.relnamespace,c.relam,c.reltablespace,tc.relname as tabrelname,dsc.description,pg_catalog.pg_get_expr(i.indpred, i.indrelid) as pred_expr,pg_catalog.pg_get_expr(i.indexprs, i.indrelid, true) as expr,pg_catalog.pg_relation_size(i.indexrelid) as index_rel_size,pg_catalog.pg_stat_get_numscans(i.indexrelid) as index_num_scans
+FROM pg_catalog.pg_index i
+INNER JOIN pg_catalog.pg_class c ON c.oid=i.indexrelid
+INNER JOIN pg_catalog.pg_class tc ON tc.oid=i.indrelid
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON i.indexrelid=dsc.objoid
+WHERE  i.indrelid=$1 ORDER BY c.relname",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.248 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,174,"BIND",2025-01-07 09:14:22 JST,4/45,0,LOG,00000,"duration: 0.479 ms  bind <unnamed>: SELECT i.*,i.indkey as keys,c.relname,c.relnamespace,c.relam,c.reltablespace,tc.relname as tabrelname,dsc.description,pg_catalog.pg_get_expr(i.indpred, i.indrelid) as pred_expr,pg_catalog.pg_get_expr(i.indexprs, i.indrelid, true) as expr,pg_catalog.pg_relation_size(i.indexrelid) as index_rel_size,pg_catalog.pg_stat_get_numscans(i.indexrelid) as index_num_scans
+FROM pg_catalog.pg_index i
+INNER JOIN pg_catalog.pg_class c ON c.oid=i.indexrelid
+INNER JOIN pg_catalog.pg_class tc ON tc.oid=i.indrelid
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON i.indexrelid=dsc.objoid
+WHERE  i.indrelid=$1 ORDER BY c.relname","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.248 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,175,"SELECT",2025-01-07 09:14:22 JST,4/45,0,LOG,00000,"execute <unnamed>: SELECT i.*,i.indkey as keys,c.relname,c.relnamespace,c.relam,c.reltablespace,tc.relname as tabrelname,dsc.description,pg_catalog.pg_get_expr(i.indpred, i.indrelid) as pred_expr,pg_catalog.pg_get_expr(i.indexprs, i.indrelid, true) as expr,pg_catalog.pg_relation_size(i.indexrelid) as index_rel_size,pg_catalog.pg_stat_get_numscans(i.indexrelid) as index_num_scans
+FROM pg_catalog.pg_index i
+INNER JOIN pg_catalog.pg_class c ON c.oid=i.indexrelid
+INNER JOIN pg_catalog.pg_class tc ON tc.oid=i.indrelid
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON i.indexrelid=dsc.objoid
+WHERE  i.indrelid=$1 ORDER BY c.relname","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.259 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,176,"SELECT",2025-01-07 09:14:22 JST,4/45,0,LOG,00000,"duration: 10.586 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.260 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,177,"PARSE",2025-01-07 09:14:22 JST,4/46,0,LOG,00000,"duration: 0.199 ms  parse <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.260 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,178,"BIND",2025-01-07 09:14:22 JST,4/46,0,LOG,00000,"duration: 0.361 ms  bind <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.260 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,179,"SELECT",2025-01-07 09:14:22 JST,4/46,0,LOG,00000,"execute <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.260 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,180,"SELECT",2025-01-07 09:14:22 JST,4/46,0,LOG,00000,"duration: 0.053 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.261 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,181,"PARSE",2025-01-07 09:14:22 JST,4/47,0,LOG,00000,"duration: 0.038 ms  parse <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.262 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,182,"BIND",2025-01-07 09:14:22 JST,4/47,0,LOG,00000,"duration: 0.148 ms  bind <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.262 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,183,"SELECT",2025-01-07 09:14:22 JST,4/47,0,LOG,00000,"execute <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:25.262 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,184,"SELECT",2025-01-07 09:14:22 JST,4/47,0,LOG,00000,"duration: 0.025 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:26.065 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,185,"PARSE",2025-01-07 09:14:22 JST,4/48,0,LOG,00000,"duration: 0.184 ms  parse <unnamed>: select c.oid,pg_catalog.pg_total_relation_size(c.oid) as total_rel_size,pg_catalog.pg_relation_size(c.oid) as rel_size
+FROM pg_class c
+WHERE c.relnamespace=$1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:26.065 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,186,"BIND",2025-01-07 09:14:22 JST,4/48,0,LOG,00000,"duration: 0.101 ms  bind <unnamed>: select c.oid,pg_catalog.pg_total_relation_size(c.oid) as total_rel_size,pg_catalog.pg_relation_size(c.oid) as rel_size
+FROM pg_class c
+WHERE c.relnamespace=$1","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:26.065 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,187,"SELECT",2025-01-07 09:14:22 JST,4/48,0,LOG,00000,"execute <unnamed>: select c.oid,pg_catalog.pg_total_relation_size(c.oid) as total_rel_size,pg_catalog.pg_relation_size(c.oid) as rel_size
+FROM pg_class c
+WHERE c.relnamespace=$1","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:26.065 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,188,"SELECT",2025-01-07 09:14:22 JST,4/48,0,LOG,00000,"duration: 0.214 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.466 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,189,"PARSE",2025-01-07 09:14:22 JST,4/49,0,LOG,00000,"duration: 0.584 ms  parse <unnamed>: SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
+ WHERE nspname=$1 ORDER BY nspname",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.467 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,190,"BIND",2025-01-07 09:14:22 JST,4/49,0,LOG,00000,"duration: 0.712 ms  bind <unnamed>: SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
+ WHERE nspname=$1 ORDER BY nspname","parameters: $1 = 'public'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.467 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,191,"SELECT",2025-01-07 09:14:22 JST,4/49,0,LOG,00000,"execute <unnamed>: SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
+ WHERE nspname=$1 ORDER BY nspname","parameters: $1 = 'public'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.467 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,192,"SELECT",2025-01-07 09:14:22 JST,4/49,0,LOG,00000,"duration: 0.114 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.469 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,193,"PARSE",2025-01-07 09:14:22 JST,4/50,0,LOG,00000,"duration: 0.371 ms  parse <unnamed>: SELECT t.oid,t.*,c.relkind,format_type(nullif(t.typbasetype, 0), t.typtypmod) as base_type_name, d.description
+FROM pg_catalog.pg_type t
+LEFT OUTER JOIN pg_catalog.pg_type et ON et.oid=t.typelem 
+LEFT OUTER JOIN pg_catalog.pg_class c ON c.oid=t.typrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON t.oid=d.objoid
+WHERE t.typname IS NOT NULL
+AND (c.relkind IS NULL OR c.relkind = 'c') AND (et.typcategory IS NULL OR et.typcategory <> 'C')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.470 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,194,"BIND",2025-01-07 09:14:22 JST,4/50,0,LOG,00000,"duration: 0.498 ms  bind <unnamed>: SELECT t.oid,t.*,c.relkind,format_type(nullif(t.typbasetype, 0), t.typtypmod) as base_type_name, d.description
+FROM pg_catalog.pg_type t
+LEFT OUTER JOIN pg_catalog.pg_type et ON et.oid=t.typelem 
+LEFT OUTER JOIN pg_catalog.pg_class c ON c.oid=t.typrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON t.oid=d.objoid
+WHERE t.typname IS NOT NULL
+AND (c.relkind IS NULL OR c.relkind = 'c') AND (et.typcategory IS NULL OR et.typcategory <> 'C')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.470 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,195,"SELECT",2025-01-07 09:14:22 JST,4/50,0,LOG,00000,"execute <unnamed>: SELECT t.oid,t.*,c.relkind,format_type(nullif(t.typbasetype, 0), t.typtypmod) as base_type_name, d.description
+FROM pg_catalog.pg_type t
+LEFT OUTER JOIN pg_catalog.pg_type et ON et.oid=t.typelem 
+LEFT OUTER JOIN pg_catalog.pg_class c ON c.oid=t.typrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON t.oid=d.objoid
+WHERE t.typname IS NOT NULL
+AND (c.relkind IS NULL OR c.relkind = 'c') AND (et.typcategory IS NULL OR et.typcategory <> 'C')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.477 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,196,"SELECT",2025-01-07 09:14:22 JST,4/50,0,LOG,00000,"duration: 6.978 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.480 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,197,"PARSE",2025-01-07 09:14:22 JST,4/51,0,LOG,00000,"duration: 0.265 ms  parse <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.481 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,198,"BIND",2025-01-07 09:14:22 JST,4/51,0,LOG,00000,"duration: 0.251 ms  bind <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.481 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,199,"SELECT",2025-01-07 09:14:22 JST,4/51,0,LOG,00000,"execute <unnamed>: SELECT c.oid,c.*,d.description,pg_catalog.pg_get_expr(c.relpartbound, c.oid) as partition_expr,  pg_catalog.pg_get_partkeydef(c.oid) as partition_key 
+FROM pg_catalog.pg_class c
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_class'::regclass
+WHERE c.relnamespace=$1 AND c.relkind not in ('i','I','c')","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.481 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,200,"SELECT",2025-01-07 09:14:22 JST,4/51,0,LOG,00000,"duration: 0.120 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.482 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,201,"PARSE",2025-01-07 09:14:22 JST,4/52,0,LOG,00000,"duration: 0.183 ms  parse <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.483 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,202,"BIND",2025-01-07 09:14:22 JST,4/52,0,LOG,00000,"duration: 0.574 ms  bind <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.483 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,203,"SELECT",2025-01-07 09:14:22 JST,4/52,0,LOG,00000,"execute <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16386'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:32.484 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,204,"SELECT",2025-01-07 09:14:22 JST,4/52,0,LOG,00000,"duration: 0.927 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:34.014 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,205,"PARSE",2025-01-07 09:14:22 JST,4/53,0,LOG,00000,"duration: 0.237 ms  parse <unnamed>: select c.oid,pg_catalog.pg_total_relation_size(c.oid) as total_rel_size,pg_catalog.pg_relation_size(c.oid) as rel_size
+FROM pg_class c
+WHERE c.relnamespace=$1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:34.014 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,206,"BIND",2025-01-07 09:14:22 JST,4/53,0,LOG,00000,"duration: 0.170 ms  bind <unnamed>: select c.oid,pg_catalog.pg_total_relation_size(c.oid) as total_rel_size,pg_catalog.pg_relation_size(c.oid) as rel_size
+FROM pg_class c
+WHERE c.relnamespace=$1","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:34.014 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,207,"SELECT",2025-01-07 09:14:22 JST,4/53,0,LOG,00000,"execute <unnamed>: select c.oid,pg_catalog.pg_total_relation_size(c.oid) as total_rel_size,pg_catalog.pg_relation_size(c.oid) as rel_size
+FROM pg_class c
+WHERE c.relnamespace=$1","parameters: $1 = '2200'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:34.015 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,208,"SELECT",2025-01-07 09:14:22 JST,4/53,0,LOG,00000,"duration: 0.413 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.320 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,209,"PARSE",2025-01-07 09:14:22 JST,4/54,0,LOG,00000,"duration: 0.116 ms  parse <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.321 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,210,"BIND",2025-01-07 09:14:22 JST,4/54,0,LOG,00000,"duration: 0.249 ms  bind <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.321 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,211,"SELECT",2025-01-07 09:14:22 JST,4/54,0,LOG,00000,"execute <unnamed>: SELECT i.*,c.relnamespace FROM pg_catalog.pg_inherits i,pg_catalog.pg_class c WHERE i.inhrelid=$1 AND c.oid=i.inhparent ORDER BY i.inhseqno","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.321 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,212,"SELECT",2025-01-07 09:14:22 JST,4/54,0,LOG,00000,"duration: 0.068 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.322 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,213,"PARSE",2025-01-07 09:14:22 JST,4/55,0,LOG,00000,"duration: 0.198 ms  parse <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.322 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,214,"BIND",2025-01-07 09:14:22 JST,4/55,0,LOG,00000,"duration: 0.358 ms  bind <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.322 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,215,"SELECT",2025-01-07 09:14:22 JST,4/55,0,LOG,00000,"execute <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.322 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,216,"SELECT",2025-01-07 09:14:22 JST,4/55,0,LOG,00000,"duration: 0.087 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.323 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,217,"PARSE",2025-01-07 09:14:22 JST,4/56,0,LOG,00000,"duration: 0.180 ms  parse <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.324 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,218,"BIND",2025-01-07 09:14:22 JST,4/56,0,LOG,00000,"duration: 0.496 ms  bind <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.324 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,219,"SELECT",2025-01-07 09:14:22 JST,4/56,0,LOG,00000,"execute <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.324 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,220,"SELECT",2025-01-07 09:14:22 JST,4/56,0,LOG,00000,"duration: 0.842 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.325 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,221,"PARSE",2025-01-07 09:14:22 JST,4/57,0,LOG,00000,"duration: 0.069 ms  parse <unnamed>: SELECT DISTINCT connamespace FROM pg_catalog.pg_constraint WHERE confrelid=$1",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.325 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,222,"BIND",2025-01-07 09:14:22 JST,4/57,0,LOG,00000,"duration: 0.085 ms  bind <unnamed>: SELECT DISTINCT connamespace FROM pg_catalog.pg_constraint WHERE confrelid=$1","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.325 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,223,"SELECT",2025-01-07 09:14:22 JST,4/57,0,LOG,00000,"execute <unnamed>: SELECT DISTINCT connamespace FROM pg_catalog.pg_constraint WHERE confrelid=$1","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:21:37.325 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,224,"SELECT",2025-01-07 09:14:22 JST,4/57,0,LOG,00000,"duration: 0.020 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:15.841 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,59,"PARSE",2025-01-07 09:14:22 JST,5/14,0,LOG,00000,"duration: 0.501 ms  parse <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(1, 'カンパニー ', '111-1111-1111', 'sample@sample.com', '日本東京都千代田区', 'テストです。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:15.841 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,60,"BIND",2025-01-07 09:14:22 JST,5/14,0,LOG,00000,"duration: 0.160 ms  bind <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(1, 'カンパニー ', '111-1111-1111', 'sample@sample.com', '日本東京都千代田区', 'テストです。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:15.841 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,61,"INSERT",2025-01-07 09:14:22 JST,5/14,0,LOG,00000,"execute <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(1, 'カンパニー ', '111-1111-1111', 'sample@sample.com', '日本東京都千代田区', 'テストです。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:15.841 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,62,"INSERT",2025-01-07 09:14:22 JST,5/14,574,LOG,00000,"duration: 0.245 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:22.015 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,63,"PARSE",2025-01-07 09:14:22 JST,5/15,0,LOG,00000,"duration: 0.209 ms  parse <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(2, 'カンパニー2 ', '222-2222-2222', 'sample2@sample.com', '日本東京都千代田区2', 'テスト2です。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:22.015 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,64,"BIND",2025-01-07 09:14:22 JST,5/15,0,LOG,00000,"duration: 0.059 ms  bind <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(2, 'カンパニー2 ', '222-2222-2222', 'sample2@sample.com', '日本東京都千代田区2', 'テスト2です。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:22.015 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,65,"INSERT",2025-01-07 09:14:22 JST,5/15,0,LOG,00000,"execute <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(2, 'カンパニー2 ', '222-2222-2222', 'sample2@sample.com', '日本東京都千代田区2', 'テスト2です。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:22.015 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,66,"INSERT",2025-01-07 09:14:22 JST,5/15,575,LOG,00000,"duration: 0.086 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:24.758 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,67,"PARSE",2025-01-07 09:14:22 JST,5/16,0,LOG,00000,"duration: 0.224 ms  parse <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(2, 'カンパニー3 ', '333-3333-3333', 'sample3@sample.com', '日本東京都千代田区3', 'テスト3です。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:24.758 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,68,"BIND",2025-01-07 09:14:22 JST,5/16,0,LOG,00000,"duration: 0.089 ms  bind <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(2, 'カンパニー3 ', '333-3333-3333', 'sample3@sample.com', '日本東京都千代田区3', 'テスト3です。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:24.758 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,69,"INSERT",2025-01-07 09:14:22 JST,5/16,0,LOG,00000,"execute <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(2, 'カンパニー3 ', '333-3333-3333', 'sample3@sample.com', '日本東京都千代田区3', 'テスト3です。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:35.789 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,70,"PARSE",2025-01-07 09:14:22 JST,5/17,0,LOG,00000,"duration: 0.167 ms  parse <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(3, 'カンパニー3 ', '333-3333-3333', 'sample3@sample.com', '日本東京都千代田区3', 'テスト3です。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:35.789 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,71,"BIND",2025-01-07 09:14:22 JST,5/17,0,LOG,00000,"duration: 0.076 ms  bind <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(3, 'カンパニー3 ', '333-3333-3333', 'sample3@sample.com', '日本東京都千代田区3', 'テスト3です。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:35.789 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,72,"INSERT",2025-01-07 09:14:22 JST,5/17,0,LOG,00000,"execute <unnamed>: INSERT INTO company (company_id, company_name, phone, mail, address, memo) VALUES(3, 'カンパニー3 ', '333-3333-3333', 'sample3@sample.com', '日本東京都千代田区3', 'テスト3です。')",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:35.789 JST,"postgres","postgres",37,"172.19.0.1:57668",677c71de.25,73,"INSERT",2025-01-07 09:14:22 JST,5/17,577,LOG,00000,"duration: 0.133 ms",,,,,,,,,"DBeaver 24.3.0 - SQLEditor <Script-2.sql>"
+2025-01-07 09:22:42.142 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,225,"PARSE",2025-01-07 09:14:22 JST,4/58,0,LOG,00000,"duration: 0.448 ms  parse <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:42.143 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,226,"BIND",2025-01-07 09:14:22 JST,4/58,0,LOG,00000,"duration: 1.098 ms  bind <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:42.143 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,227,"SELECT",2025-01-07 09:14:22 JST,4/58,0,LOG,00000,"execute <unnamed>: SELECT c.relname,a.*,pg_catalog.pg_get_expr(ad.adbin, ad.adrelid, true) as def_value,dsc.description,dep.objid
+FROM pg_catalog.pg_attribute a
+INNER JOIN pg_catalog.pg_class c ON (a.attrelid=c.oid)
+LEFT OUTER JOIN pg_catalog.pg_attrdef ad ON (a.attrelid=ad.adrelid AND a.attnum = ad.adnum)
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON (c.oid=dsc.objoid AND a.attnum = dsc.objsubid)
+LEFT OUTER JOIN pg_depend dep on dep.refobjid = a.attrelid AND dep.deptype = 'i' and dep.refobjsubid = a.attnum and dep.classid = dep.refclassid
+WHERE NOT a.attisdropped AND c.relkind not in ('i','I','c') AND c.oid=$1
+ORDER BY a.attnum","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:42.144 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,228,"SELECT",2025-01-07 09:14:22 JST,4/58,0,LOG,00000,"duration: 0.958 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:42.146 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,53,"PARSE",2025-01-07 09:14:22 JST,3/17,0,LOG,00000,"duration: 0.155 ms  parse <unnamed>: SELECT x.* FROM public.company x",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:22:42.146 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,54,"BIND",2025-01-07 09:14:22 JST,3/17,0,LOG,00000,"duration: 0.062 ms  bind <unnamed>: SELECT x.* FROM public.company x",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:22:42.146 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,55,"SELECT",2025-01-07 09:14:22 JST,3/17,0,LOG,00000,"execute <unnamed>: SELECT x.* FROM public.company x",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:22:42.146 JST,"postgres","postgres",35,"172.19.0.1:57644",677c71de.23,56,"SELECT",2025-01-07 09:14:22 JST,3/17,0,LOG,00000,"duration: 0.032 ms",,,,,,,,,"DBeaver 24.3.0 - Main <postgres>"
+2025-01-07 09:22:42.147 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,229,"PARSE",2025-01-07 09:14:22 JST,4/59,0,LOG,00000,"duration: 0.424 ms  parse <unnamed>: SELECT i.*,i.indkey as keys,c.relname,c.relnamespace,c.relam,c.reltablespace,tc.relname as tabrelname,dsc.description,pg_catalog.pg_get_expr(i.indpred, i.indrelid) as pred_expr,pg_catalog.pg_get_expr(i.indexprs, i.indrelid, true) as expr,pg_catalog.pg_relation_size(i.indexrelid) as index_rel_size,pg_catalog.pg_stat_get_numscans(i.indexrelid) as index_num_scans
+FROM pg_catalog.pg_index i
+INNER JOIN pg_catalog.pg_class c ON c.oid=i.indexrelid
+INNER JOIN pg_catalog.pg_class tc ON tc.oid=i.indrelid
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON i.indexrelid=dsc.objoid
+WHERE  i.indrelid=$1 ORDER BY c.relname",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:42.148 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,230,"BIND",2025-01-07 09:14:22 JST,4/59,0,LOG,00000,"duration: 0.501 ms  bind <unnamed>: SELECT i.*,i.indkey as keys,c.relname,c.relnamespace,c.relam,c.reltablespace,tc.relname as tabrelname,dsc.description,pg_catalog.pg_get_expr(i.indpred, i.indrelid) as pred_expr,pg_catalog.pg_get_expr(i.indexprs, i.indrelid, true) as expr,pg_catalog.pg_relation_size(i.indexrelid) as index_rel_size,pg_catalog.pg_stat_get_numscans(i.indexrelid) as index_num_scans
+FROM pg_catalog.pg_index i
+INNER JOIN pg_catalog.pg_class c ON c.oid=i.indexrelid
+INNER JOIN pg_catalog.pg_class tc ON tc.oid=i.indrelid
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON i.indexrelid=dsc.objoid
+WHERE  i.indrelid=$1 ORDER BY c.relname","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:42.148 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,231,"SELECT",2025-01-07 09:14:22 JST,4/59,0,LOG,00000,"execute <unnamed>: SELECT i.*,i.indkey as keys,c.relname,c.relnamespace,c.relam,c.reltablespace,tc.relname as tabrelname,dsc.description,pg_catalog.pg_get_expr(i.indpred, i.indrelid) as pred_expr,pg_catalog.pg_get_expr(i.indexprs, i.indrelid, true) as expr,pg_catalog.pg_relation_size(i.indexrelid) as index_rel_size,pg_catalog.pg_stat_get_numscans(i.indexrelid) as index_num_scans
+FROM pg_catalog.pg_index i
+INNER JOIN pg_catalog.pg_class c ON c.oid=i.indexrelid
+INNER JOIN pg_catalog.pg_class tc ON tc.oid=i.indrelid
+LEFT OUTER JOIN pg_catalog.pg_description dsc ON i.indexrelid=dsc.objoid
+WHERE  i.indrelid=$1 ORDER BY c.relname","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:42.159 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,232,"SELECT",2025-01-07 09:14:22 JST,4/59,0,LOG,00000,"duration: 11.021 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:42.160 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,233,"PARSE",2025-01-07 09:14:22 JST,4/60,0,LOG,00000,"duration: 0.251 ms  parse <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:42.161 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,234,"BIND",2025-01-07 09:14:22 JST,4/60,0,LOG,00000,"duration: 0.448 ms  bind <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:42.161 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,235,"SELECT",2025-01-07 09:14:22 JST,4/60,0,LOG,00000,"execute <unnamed>: SELECT c.oid,c.*,t.relname as tabrelname,rt.relnamespace as refnamespace,d.description, case when c.contype='c' then ""substring""(pg_get_constraintdef(c.oid), 7) else null end consrc_copy
+FROM pg_catalog.pg_constraint c
+INNER JOIN pg_catalog.pg_class t ON t.oid=c.conrelid
+LEFT OUTER JOIN pg_catalog.pg_class rt ON rt.oid=c.confrelid
+LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=c.oid AND d.objsubid=0 AND d.classoid='pg_constraint'::regclass
+WHERE c.conrelid=$1
+ORDER BY c.oid","parameters: $1 = '16396'",,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:42.161 JST,"postgres","postgres",36,"172.19.0.1:57656",677c71de.24,236,"SELECT",2025-01-07 09:14:22 JST,4/60,0,LOG,00000,"duration: 0.104 ms",,,,,,,,,"DBeaver 24.3.0 - Metadata <postgres>"
+2025-01-07 09:22:49.781 JST,"postgres","postgres",46,"172.19.0.1:59802",677c73d9.2e,1,"PARSE",2025-01-07 09:22:49 JST,6/18,0,LOG,00000,"duration: 0.647 ms  parse <unnamed>: SELECT company_id, company_name, phone, mail, address, memo FROM company WHERE company_id = $1;",,,,,,,,,""
+2025-01-07 09:22:49.781 JST,"postgres","postgres",46,"172.19.0.1:59802",677c73d9.2e,2,"BIND",2025-01-07 09:22:49 JST,6/18,0,LOG,00000,"duration: 0.547 ms  bind <unnamed>: SELECT company_id, company_name, phone, mail, address, memo FROM company WHERE company_id = $1;","parameters: $1 = '1'",,,,,,,,""
+2025-01-07 09:22:49.781 JST,"postgres","postgres",46,"172.19.0.1:59802",677c73d9.2e,3,"SELECT",2025-01-07 09:22:49 JST,6/18,0,LOG,00000,"execute <unnamed>: SELECT company_id, company_name, phone, mail, address, memo FROM company WHERE company_id = $1;","parameters: $1 = '1'",,,,,,,,""
+2025-01-07 09:22:49.781 JST,"postgres","postgres",46,"172.19.0.1:59802",677c73d9.2e,4,"SELECT",2025-01-07 09:22:49 JST,6/18,0,LOG,00000,"duration: 0.028 ms",,,,,,,,,""
+2025-01-07 09:35:26.972 JST,"postgres","postgres",57,"172.19.0.1:64374",677c76ce.39,1,"PARSE",2025-01-07 09:35:26 JST,3/33,0,LOG,00000,"duration: 1.072 ms  parse <unnamed>: SELECT company_id, company_name, phone, mail, address, memo FROM company WHERE company_id = $1;",,,,,,,,,""
+2025-01-07 09:35:26.973 JST,"postgres","postgres",57,"172.19.0.1:64374",677c76ce.39,2,"BIND",2025-01-07 09:35:26 JST,3/33,0,LOG,00000,"duration: 0.975 ms  bind <unnamed>: SELECT company_id, company_name, phone, mail, address, memo FROM company WHERE company_id = $1;","parameters: $1 = '2'",,,,,,,,""
+2025-01-07 09:35:26.973 JST,"postgres","postgres",57,"172.19.0.1:64374",677c76ce.39,3,"SELECT",2025-01-07 09:35:26 JST,3/33,0,LOG,00000,"execute <unnamed>: SELECT company_id, company_name, phone, mail, address, memo FROM company WHERE company_id = $1;","parameters: $1 = '2'",,,,,,,,""
+2025-01-07 09:35:26.973 JST,"postgres","postgres",57,"172.19.0.1:64374",677c76ce.39,4,"SELECT",2025-01-07 09:35:26 JST,3/33,0,LOG,00000,"duration: 0.046 ms",,,,,,,,,""
+2025-01-07 09:37:31.330 JST,,,1,,677c7148.1,3,,2025-01-07 09:11:52 JST,,0,LOG,00000,"received fast shutdown request",,,,,,,,,""
+2025-01-07 09:37:31.332 JST,,,1,,677c7148.1,4,,2025-01-07 09:11:52 JST,,0,LOG,00000,"aborting any active transactions",,,,,,,,,""
+2025-01-07 09:37:31.333 JST,,,1,,677c7148.1,5,,2025-01-07 09:11:52 JST,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 33) exited with exit code 1",,,,,,,,,""
+2025-01-07 09:37:31.334 JST,,,28,,677c7148.1c,1,,2025-01-07 09:11:52 JST,,0,LOG,00000,"shutting down",,,,,,,,,""
+2025-01-07 09:37:31.339 JST,,,1,,677c7148.1,6,,2025-01-07 09:11:52 JST,,0,LOG,00000,"database system is shut down",,,,,,,,,""

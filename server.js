@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
-const db = require("./db/db.js");
+const db = require("./conn/db.js");
 
 // ミドルウェア
 app.use(bodyParser.json());
